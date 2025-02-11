@@ -2,37 +2,37 @@ using UnityEngine;
 
 public class TeteChercheuse : MonoBehaviour
 {
-    public Transform target; // La cible ‡ suivre
-    public float speed = 5f; // Vitesse de dÈplacement
-    public float rotationSpeed = 200f; // Vitesse de rotation
-    public float detectionDistance = 10f; // Distance de dÈtection de la cible
+    public Transform target; // La cible √† suivre (un autre objet, par exemple un joueur)
+    public float speed = 5f; // Vitesse de d√©placement de l'objet
+    public float rotationSpeed = 200f; // Vitesse de rotation pour tourner vers la cible
+    public float detectionDistance = 10f; // Distance √† laquelle la cible est d√©tect√©e
 
-    private Rigidbody2D rb;
+    private Rigidbody2D rb; // R√©f√©rence au Rigidbody2D pour g√©rer la physique de l'objet
 
     void Start() {
-        // RÈcupÈrer le composant Rigidbody2D
+        // R√©cup√®re le composant Rigidbody2D attach√© √† l'objet (pour g√©rer les d√©placements physiques)
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update() {
-        // VÈrifier si la cible est ‡ portÈe
+        // V√©rifie si la cible est dans la port√©e de d√©tection
         if (Vector2.Distance(transform.position, target.position) <= detectionDistance) {
-            // Calculer la direction vers la cible en 2D
+            // Calcule la direction vers la cible en 2D
             Vector2 direction = (target.position - transform.position).normalized;
 
-            // Calculer l'angle de rotation vers la direction calculÈe
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f; // -90f pour ajuster l'orientation si nÈcessaire
+            // Calcule l'angle n√©cessaire pour tourner vers la cible
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f; // On ajuste l'angle de -90¬∞ si n√©cessaire pour l'orientation
 
-            // Faire tourner l'objet vers la direction calculÈe autour de l'axe Z
-            Quaternion lookRotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
+            // Applique une rotation fluide pour tourner vers la cible
+            Quaternion lookRotation = Quaternion.AngleAxis(angle, Vector3.forward); // Cr√©e la rotation
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed); // Rotation douce vers la cible
 
-            // DÈplacer l'objet en utilisant Rigidbody2D pour respecter les collisions
-            rb.velocity = transform.up * speed; // Utiliser transform.up pour avancer dans la direction actuelle
+            // D√©place l'objet en fonction de sa rotation (avance dans la direction de "transform.up")
+            rb.velocity = transform.up * speed; // Utilise "transform.up" pour avancer dans la direction de l'objet
         }
         else {
-            // Si la cible est hors de portÈe, arrÍter le mouvement
-            rb.velocity = Vector2.zero;
+            // Si la cible est trop loin, arr√™te le mouvement
+            rb.velocity = Vector2.zero; // Arr√™te l'objet
         }
     }
 }

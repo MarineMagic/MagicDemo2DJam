@@ -8,44 +8,48 @@ public class Timers : MonoBehaviour
     public static List<Timer> timers = new List<Timer>();
 
     private void Update() {
-        // Boucle pour retirer les timers terminés
+        // Boucle pour mettre à jour et retirer les timers terminés
         foreach (Timer timer in timers) {
-            timer.Update(Time.deltaTime);//met é jour les timers
-            if (timer.fini)
-                timers.Remove(timer);
-                break; //pour eviter un message d'erreur dans la liste
+            timer.Update(Time.deltaTime); // Met à jour le timer avec le temps écoulé
+            if (timer.fini) {
+                timers.Remove(timer); // Supprime le timer s'il est terminé
+                break; // Sort de la boucle pour éviter des erreurs de modification de la liste
+            }
         }
     }
 
-    // fonction pour démarrer un nouveau timer, peut etre utilisée depuis n'importe quel script avec ce code:
-    // Timers.StartTimer(TEMPS ICI, FONCTION ICI);
+    // Fonction pour démarrer un nouveau timer
+    // Utilisation : Timers.StartTimer(TEMPS, FONCTION);
     public static void StartTimer(float duree, Action action) {
-        timers.Add(new Timer(duree, action));
+        timers.Add(new Timer(duree, action)); // Ajoute un nouveau timer à la liste
     }
 
     // Classe interne qui représente un timer individuel
     public class Timer
     {
-        private float duree;      // Durée totale du timer
+        private float duree;         // Durée totale du timer
         private float tempsecoule;   // Temps écoulé depuis le démarrage du timer
-        private Action action;     // Action é exécuter lorsque le timer se termine
-        public bool fini;// Indique si le timer est terminé
+        private Action action;       // Action à exécuter lorsque le timer se termine
+        public bool fini;            // Indique si le timer est terminé
 
-        public Timer(float duration, Action callback) { //quand on génére un timer, on copie les chiffres donnés dans ses propres propriétés
+        // Constructeur : initialise le timer avec une durée et une action
+        public Timer(float duration, Action callback) {
             this.duree = duration;
             this.action = callback;
             tempsecoule = 0f;
             fini = false;
         }
-        //et on fait tourner le timer
+
+        // Met à jour le timer avec le temps écoulé
         public void Update(float deltaTime) {
-            if (fini)
-                return;
-            tempsecoule += deltaTime;
-            //si il est fini, il lance l'action qui é été attaché
+            if (fini) return; // Si le timer est déjà terminé, ne rien faire
+
+            tempsecoule += deltaTime; // Ajoute le temps écoulé
+
+            // Si le temps écoulé dépasse la durée, exécute l'action et marque le timer comme terminé
             if (tempsecoule >= duree) {
-                action?.Invoke();
-                fini = true;
+                action?.Invoke(); // Exécute l'action si elle existe
+                fini = true;      // Marque le timer comme terminé
             }
         }
     }

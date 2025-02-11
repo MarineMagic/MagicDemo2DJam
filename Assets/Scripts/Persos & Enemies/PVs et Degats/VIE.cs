@@ -4,32 +4,40 @@ using UnityEngine;
 
 public class VIE : MonoBehaviour
 {
-    public SpriteRenderer remplissageVisuel; // Le sprite de la partie changeant de la barre de vie
-    public float maxSantee = 10f; // PV max
-    public float SanteeEnCours; // PV actuels
+    public SpriteRenderer remplissageVisuel; // Sprite du visuel de la barre de vie
+    public float maxSantee = 10f; // Nombre maximum de PV
+    public float SanteeEnCours; // PV actuels du personnage
 
-    private Vector3 tailleInitiale; // Taille initiale du sprite de l'indicateur
+    private Vector3 tailleInitiale; // Taille originale de l'indicateur de vie
 
     void Start() {
+        // Au début du jeu, les PV sont égaux à la valeur maximale
         SanteeEnCours = maxSantee;
-        tailleInitiale = remplissageVisuel.transform.localScale; // Sauvegarde la taille initiale
+        // Sauvegarde la taille originale de l'indicateur de la barre de vie
+        tailleInitiale = remplissageVisuel.transform.localScale;
     }
 
     void Update() {
-        // Calcule la proportion des PV actuels par rapport aux PV max
+        // Calcule la proportion des PV actuels par rapport aux PV maximum
         float healthRatio = SanteeEnCours / maxSantee;
 
-        // Met à jour l'échelle du sprite de l'indicateur
+        // Met à jour la taille de la barre de vie en fonction des PV
         remplissageVisuel.transform.localScale = new Vector3(tailleInitiale.x * healthRatio, tailleInitiale.y, tailleInitiale.z);
     }
 
+    // Fonction pour appliquer des dégâts à la vie
     public void FaireDegats(float damage) {
+        // Réduit la vie en fonction des dégâts reçus
         SanteeEnCours -= damage;
-        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee); // Assure que les PV ne descendent pas en dessous de 0
+        // Assure que la vie ne soit pas inférieure à 0
+        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee);
     }
 
+    // Fonction pour soigner l'entité (augmenter sa vie)
     public void Soigne(float amount) {
+        // Augmente la vie en fonction de la quantité de soins
         SanteeEnCours += amount;
-        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee); // Assure que les PV ne dépassent pas le max
+        // Assure que la vie ne dépasse pas le maximum
+        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee);
     }
 }

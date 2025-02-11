@@ -4,45 +4,45 @@ using UnityEngine;
 
 public class AutoTir2D : MonoBehaviour
 {
-    public Transform player; // RÈfÈrence au joueur
-    public float detectionDistance = 10f; // Distance de dÈtection du joueur
-    public float fireRate = 1f; // Taux de tir (en secondes)
-    public GameObject projectilePrefab; // PrÈfab du projectile ‡ tirer
-    public Transform firePoint; // Point d'origine du tir
-    public float puissance;
+    public Transform player; // R√©f√©rence au joueur, pour savoir o√π il se trouve
+    public float detectionDistance = 10f; // Distance √† laquelle la tourelle d√©tecte le joueur
+    public float fireRate = 1f; // Temps entre chaque tir (en secondes)
+    public GameObject projectilePrefab; // Le mod√®le du projectile √† tirer
+    public Transform firePoint; // Le point d'origine du tir (l'endroit o√π le projectile appara√Æt)
+    public float puissance; // La puissance du tir, pour la vitesse du projectile
 
-    private float timer = 0f;
+    private float timer = 0f; // Un timer pour contr√¥ler la cadence de tir
 
     void Update() {
-        // VÈrifier si le joueur est ‡ portÈe
+        // V√©rifie si le joueur est √† port√©e (distance par rapport √† la tourelle)
         if (Vector2.Distance(transform.position, player.position) <= detectionDistance) {
 
-            // Orienter la tourelle vers le joueur (en 2D)
-            Vector2 direction = (player.position - transform.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // Calculer l'angle en degrÈs
-            transform.rotation = Quaternion.Euler(0f, 0f, angle); // Appliquer la rotation autour de l'axe Z
+            // Oriente la tourelle vers le joueur (en 2D)
+            Vector2 direction = (player.position - transform.position).normalized; // Trouve la direction vers le joueur
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // Calcul l'angle en degr√©s pour la rotation
+            transform.rotation = Quaternion.Euler(0f, 0f, angle); // Applique la rotation sur l'axe Z
 
-            // GÈrer le tir
+            // G√®re le tir
             if (timer <= 0f) {
-                Tirer();
-                timer = fireRate; // RÈinitialiser le timer
+                Tirer(); // Appelle la fonction pour tirer
+                timer = fireRate; // R√©initialise le timer pour le prochain tir
             }
             else {
-                timer -= Time.deltaTime; // DÈcrÈmenter le timer
+                timer -= Time.deltaTime; // D√©cr√©mente le timer √† chaque frame
             }
         }
     }
 
     void Tirer() {
-        // Instancier le projectile et le lancer dans la direction du joueur
+        // Cr√©e le projectile et l'envoie dans la direction du joueur
         if (projectilePrefab && firePoint) {
-            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation); // Cr√©e une copie du projectile
 
-            // Appliquer une vitesse au projectile (en 2D)
-            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            // Applique une vitesse au projectile (le fait bouger)
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>(); // R√©cup√®re le composant physique du projectile
             if (rb) {
-                Vector2 direction = (player.position - firePoint.position).normalized;
-                rb.velocity = direction * puissance; // Ajuste la vitesse selon tes besoins
+                Vector2 direction = (player.position - firePoint.position).normalized; // Trouve la direction du tir
+                rb.velocity = direction * puissance; // Donne une vitesse au projectile en fonction de la direction et de la puissance
             }
         }
     }

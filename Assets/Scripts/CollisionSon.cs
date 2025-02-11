@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class CollisionSon : MonoBehaviour
 {
-    // Liste des sons ‡ jouer lors de la collision
+    // Liste des sons possibles √† jouer lors d'une collision
     public List<AudioClip> mesSons;
-    // Composant audio utilisÈ pour jouer les sons
+    
+    // Composant AudioSource utilis√© pour jouer les sons
     public AudioSource lecteurSon;
 
-    // Fonction appelÈe lors d'une collision 2D
+    // Fonction appel√©e lorsqu'une collision 2D se produit
     void OnCollisionEnter2D(Collision2D objet) {
-        // VÈrifie si l'objet en collision porte le tag "Player"
+        // V√©rifie si l'objet en collision a le tag "Player"
         if (objet.transform.tag == "Player") {
-            // ArrÍte tout son en cours de lecture
+            // Arr√™te le son en cours pour √©viter les superpositions
             lecteurSon.Stop();
-            // SÈlectionne alÈatoirement un clip parmi les trois premiers de la liste
-            lecteurSon.clip = mesSons[Random.Range(0, 3)];
-            // Joue le clip sÈlectionnÈ
-            lecteurSon.Play();
+            
+            // S√©lectionne al√©atoirement un clip audio parmi les trois premiers de la liste
+            if (mesSons.Count > 0) {
+                lecteurSon.clip = mesSons[Random.Range(0, Mathf.Min(3, mesSons.Count))];
+                
+                // Joue le son s√©lectionn√©
+                lecteurSon.Play();
+            }
         }
     }
 }

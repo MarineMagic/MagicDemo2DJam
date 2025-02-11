@@ -5,44 +5,47 @@ using UnityEngine;
 public class Patrouille : MonoBehaviour
 {
     // Variables publiques
-    public float vitesse = 1f; // vitesse de déplacement
-    public List<GameObject> destinations; // les destinations à suivre
-    public bool boucle = true; // si true, le chemin est bouclé, sinon l’objet s’arrête une fois arrivé au bout du chemin
-    public bool hasard = false; //si true, les points sont choisis au hasard, sinon c'est dans l'ordre de la liste
-    public float attente = 0; //temps d'attente a chaque point
+    public float vitesse = 1f; // Vitesse de dÃ©placement
+    public List<GameObject> destinations; // Liste des destinations Ã  suivre
+    public bool boucle = true; // Si true, le chemin est bouclÃ©, sinon lâ€™objet sâ€™arrÃªte une fois arrivÃ© au bout
+    public bool hasard = false; // Si true, les points sont choisis au hasard, sinon c'est dans l'ordre de la liste
+    public float attente = 0; // Temps d'attente Ã  chaque point
 
-    // Variables privées
-    private int indiceDestination = 0; // indice de la destination courante dans la liste
-    private float tolerance = 0.1f; // la distance acceptable pour considérer que l’objet a atteint une destination
-    private bool arrive;
+    // Variables privÃ©es
+    private int indiceDestination = 0; // Indice de la destination courante
+    private float tolerance = 0.1f; // Distance minimale pour considÃ©rer quâ€™une destination est atteinte
+    private bool arrive; // Indique si l'objet est arrivÃ© Ã  destination
 
     void Update() {
-        // déplacer l’objet vers la destination suivante
+        // DÃ©place lâ€™objet vers la destination actuelle
         transform.position = Vector2.MoveTowards(transform.position, destinations[indiceDestination].transform.position, vitesse * Time.deltaTime);
-        // si l’objet atteint la destination (il est donc plus près que la tolérance)
+        
+        // VÃ©rifie si lâ€™objet est suffisamment proche de la destination
         if (Vector2.Distance(transform.position, destinations[indiceDestination].transform.position) < tolerance && !arrive) {
-            arrive = true;
-            Timers.StartTimer(attente, NouveauPoint);
+            arrive = true; // Marque l'objet comme arrivÃ©
+            Timers.StartTimer(attente, NouveauPoint); // DÃ©marre un timer avant de passer au prochain point
         }
     }
 
     private void NouveauPoint() {
+        // SÃ©lectionne le prochain point en fonction du mode choisi
         if (hasard) {
-            indiceDestination = Random.Range(0, destinations.Count); //on choisi une destination au pif dans la liste
+            indiceDestination = Random.Range(0, destinations.Count); // Choix alÃ©atoire d'une destination
         }
         else {
-            indiceDestination++; // passer à la destination suivante dans la liste
+            indiceDestination++; // Passage Ã  la destination suivante dans la liste
         }
-        if (indiceDestination >= destinations.Count) // si la dernière destination est atteinte
-        {
+        
+        // VÃ©rifie si la derniÃ¨re destination est atteinte
+        if (indiceDestination >= destinations.Count) {
             if (boucle) {
-                indiceDestination = 0; // boucler sur la première destination
+                indiceDestination = 0; // RedÃ©marre depuis la premiÃ¨re destination
             }
             else {
-                enabled = false; // désactiver le script
+                enabled = false; // DÃ©sactive le script pour arrÃªter le mouvement
                 return;
             }
         }
-        arrive = false;
+        arrive = false; // RÃ©initialise l'Ã©tat d'arrivÃ©e
     }
 }

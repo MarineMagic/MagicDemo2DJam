@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class CollisionSoins : MonoBehaviour
 {
-    public float soinsMin = 10f; // soins minimum infligés
-    public float soinsMax = 10f; // soins maximum infligés
+    public float soinsMin = 10f; // Soins minimum qui peuvent Ãªtre pris
+    public float soinsMax = 10f; // Soins maximum qui peuvent Ãªtre pris
     public string tagCible = ""; // Tag des objets qui peuvent recevoir des soins
 
     void OnCollisionEnter2D(Collision2D collision) {
-        // Vérifie si l'objet touché a le tag spécifié
+        // VÃ©rifie si l'objet touchÃ© a le tag spÃ©cifiÃ©
         if (collision.gameObject.CompareTag(tagCible)) {
-            // Récupère le script VIE de l'objet touché
+            // RÃ©cupÃ¨re le script VIE de l'objet touchÃ©
             VIE vie = collision.gameObject.GetComponent<VIE>();
 
-            // Si l'objet a un script VIE, on inflige des dégâts
+            // Si l'objet a un script VIE, on applique les soins
             if (vie != null) {
-                float soinsInfliges = Random.Range(soinsMin, soinsMax); // Calcule les dégâts infligés
-                vie.Soigne(soinsInfliges); // Applique les dégâts
+                // Calcule un montant de soins alÃ©atoire entre soinsMin et soinsMax
+                float soinsInfliges = Random.Range(soinsMin, soinsMax);
+                vie.Soigne(soinsInfliges); // Applique les soins
             }
         }
     }

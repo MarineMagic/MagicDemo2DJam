@@ -1,55 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // N�cessaire pour changer de sc�ne
+using UnityEngine.SceneManagement; // Nécessaire pour changer de scène
 
 public class GameManager : MonoBehaviour
 {
-    private GameObject joueur;
-    public GameObject pauseMenu;
+    private GameObject joueur; // Variable pour stocker le joueur
+    public GameObject pauseMenu; // Référence au menu de pause (à assigner dans l'éditeur Unity)
 
     void Start()
     {
-        // menu pause off en d�but de jeu
+        // Désactive le menu de pause au début du jeu
         pauseMenu.SetActive(false);
+
+        // Trouve le joueur dans la scène grâce à son tag "Player"
         joueur = GameObject.FindGameObjectWithTag("Player");
+
+        // Si aucun joueur n'est trouvé, affiche un avertissement et arrête la fonction
         if (joueur == null) {
             Debug.LogWarning("Pas de joueur dans ce niveau");
-            return; //emp�che les bugs si pas de joueur dans le niveau (menu etc)
+            return; // Empêche les bugs si aucun joueur n'est présent (par exemple dans un menu)
         }
     }
 
     void Update()
     {
+        // Vérifie si le joueur existe
         if (joueur != null) {
+            // Si la santé du joueur est à 0 ou moins, charge la scène "GameOver"
             if (joueur.GetComponent<VIE>().SanteeEnCours <= 0) {
                 SceneManager.LoadScene("GameOver");
             }
         }
 
+        // Si la touche Échap est pressée et que le menu de pause existe, met le jeu en pause
         if (Input.GetKeyDown(KeyCode.Escape) && pauseMenu != null) {
-            // Appelle la fonction pour mettre en pause ou reprendre le jeu
             PauserJeu();
         }
     }
 
     // Fonction pour retourner au menu principal
     public void RetourMenu() {
-        // Charge la sc�ne du menu principal (assure-toi d'avoir une sc�ne nomm�e "Menu" dans ton build settings)
+        // Charge la scène du menu principal (assure-toi d'avoir une scène nommée "Menu" dans les Build Settings)
         SceneManager.LoadScene("Menu");
     }
 
     // Fonction pour lancer le jeu
     public void LancerJeu() {
-        // Charge la sc�ne du jeu (assure-toi d'avoir une sc�ne nomm�e "Niveau1" dans ton build settings)
+        // Charge la scène du jeu (assure-toi d'avoir une scène nommée "Niveau1" dans les Build Settings)
         SceneManager.LoadScene("Niveau1");
     }
 
     // Fonction pour quitter le jeu
     public void QuitterJeu() {
-        // Quitte l'application (ne fonctionne que dans un build, pas dans l'�diteur)
+        // Quitte l'application (cela ne fonctionne que dans un build, pas dans l'éditeur Unity)
         Application.Quit();
-        // Si tu es dans l'�diteur, tu peux utiliser cette ligne pour simuler la sortie
+
+        // Si tu es dans l'éditeur Unity, cette ligne permet de simuler la sortie
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
@@ -57,19 +64,19 @@ public class GameManager : MonoBehaviour
 
     // Fonction pour mettre le jeu en pause
     public void PauserJeu() {
-        // Met le jeu en pause en mettant le timeScale � 0
+        // Met le jeu en pause en mettant le timeScale à 0 (le temps s'arrête)
         Time.timeScale = 0f;
 
-        // Tu peux aussi activer un menu de pause ici si tu en as un
+        // Active le menu de pause
         pauseMenu.SetActive(true);
     }
 
-    // Fonction pour reprendre le jeu apr�s une pause
+    // Fonction pour reprendre le jeu après une pause
     public void RetourJeu() {
-        // Reprend le jeu en remettant le timeScale � 1
+        // Reprend le jeu en remettant le timeScale à 1 (le temps reprend normalement)
         Time.timeScale = 1f;
 
-        // Tu peux aussi d�sactiver le menu de pause ici si tu en as un
+        // Désactive le menu de pause
         pauseMenu.SetActive(false);
     }
 }

@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class CollerAObjet : MonoBehaviour
 {
-    public Transform joueur; //le truc ‡ suivre
+    public Transform joueur; // L'objet √† suivre
 
-    private Vector3 offset; //la difference initial de position entre l'objet et le truc ‡ suivre (offset)
+    private Vector3 offset; // Diff√©rence initiale de position entre cet objet et le joueur
 
     void Start() {
-        // Calculer l'offset entre l'objet et le le truc ‡ suivre
+        // Calculer l'offset entre cet objet et le joueur
         offset = transform.position - joueur.position;
     }
 
     void LateUpdate() {
-        // Mettre ‡ jour la position de l'objet
+        // Mettre √† jour la position de cet objet pour qu'il suive le joueur avec l'offset
         transform.position = joueur.position + offset;
     }
 }

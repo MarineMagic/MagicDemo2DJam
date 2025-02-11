@@ -4,41 +4,41 @@ using UnityEngine;
 
 public class JoueurAttaque : MonoBehaviour
 {
-    // Référence à l'Animator pour gérer les animations du joueur
-    public Animator animator; // Contrôle les animations comme l'attaque
+    // RÃ©fÃ©rence Ã  l'Animator pour gÃ©rer les animations du joueur
+    public Animator animator; // ContrÃ´le les animations comme l'attaque
 
-    // Collider utilisé pour détecter les objets touchés par l'attaque
-    public Collider2D attaqueCollider; // Zone de détection de l'attaque
+    // Collider utilisÃ© pour dÃ©tecter les objets touchÃ©s par l'attaque
+    public Collider2D attaqueCollider; // Zone de dÃ©tection de l'attaque
 
-    // Durée pendant laquelle l'attaque reste active
-    public float dureeAttaque; // Temps en secondes avant que l'attaque ne se désactive
+    // DurÃ©e pendant laquelle l'attaque reste active
+    public float dureeAttaque; // Temps en secondes avant que l'attaque ne se dÃ©sactive
 
     void Start() {
-        // On désactive le collider d'attaque au départ pour éviter qu'il ne touche des objets par erreur
+        // On dÃ©sactive le collider d'attaque au dÃ©part pour Ã©viter qu'il ne touche des objets par erreur
         attaqueCollider.enabled = false;
     }
 
     void Update() {
-        // On vérifie si le joueur a appuyé sur le bouton d'attaque (par défaut, clic gauche ou touche Ctrl)
+        // On vÃ©rifie si le joueur a appuyÃ© sur le bouton d'attaque (par dÃ©faut, clic gauche ou touche Ctrl)
         if (Input.GetButtonDown("Fire1")) {
-            // On déclenche l'animation d'attaque
+            // On dÃ©clenche l'animation d'attaque
             animator.SetTrigger("Attaque");
 
-            // On active le collider d'attaque pour qu'il puisse détecter des collisions
+            // On active le collider d'attaque pour qu'il puisse dÃ©tecter des collisions
             attaqueCollider.enabled = true;
 
             // On ignore les collisions entre le collider d'attaque et le collider du joueur
-            // Cela évite que le joueur ne s'attaque lui-même
+            // Cela Ã©vite que le joueur ne s'attaque lui-mÃªme
             Physics2D.IgnoreCollision(attaqueCollider, GetComponent<Collider2D>());
 
-            // On démarre un timer pour désactiver l'attaque après la durée spécifiée
+            // On dÃ©marre un timer pour dÃ©sactiver l'attaque aprÃ¨s la durÃ©e spÃ©cifiÃ©e
             Timers.StartTimer(dureeAttaque, stopAttaque);
         }
     }
 
-    // Méthode appelée à la fin du timer pour désactiver l'attaque
+    // MÃ©thode appelÃ©e Ã  la fin du timer pour dÃ©sactiver l'attaque
     void stopAttaque() {
-        // On désactive le collider d'attaque
+        // On dÃ©sactive le collider d'attaque
         attaqueCollider.enabled = false;
     }
 }

@@ -4,31 +4,33 @@ using UnityEngine;
 
 public class CollisionDIalogueSimple : MonoBehaviour
 {
-    // Liste des lignes de dialogue ‡ afficher
+    // Liste des lignes de dialogue √† afficher
     public List<string> mesLignes;
-    // RÈfÈrence au composant texte pour afficher le dialogue
+    // R√©f√©rence au composant texte pour afficher le dialogue
     public TMPro.TMP_Text affichage;
     // Indice de la ligne de dialogue courante
     public int actuelle;
 
-    // Fonction dÈclenchÈe lorsque le joueur entre dans la zone de collision
+    // Fonction d√©clench√©e lorsque le joueur entre dans la zone de collision
     void OnTriggerEnter2D(Collider2D objet) {
-        // VÈrifie si l'objet qui entre porte le tag "Player"
+        // V√©rifie si l'objet qui entre porte le tag "Player"
         if (objet.transform.tag == "Player") {
-            // Affiche la ligne de dialogue correspondant ‡ l'indice actuel
+            // Affiche la ligne de dialogue correspondant √† l'indice actuel
             affichage.text = mesLignes[actuelle];
-            // Si l'indice actuel est 0, on le passe ‡ 1 pour la prochaine interaction
+            // Si l'indice actuel est 0, on le passe √† 1 pour la prochaine interaction
+            // on peut passer l'indice √† n'importe quel chiffre selon la r√©plique, cela permet de faire des dialogues entiers
+            //par exemple on peut verifier si le joueur poss√®de un item, si oui mettre actuelle sur un certain chiffre, et si non, sur un autre.
             if (actuelle == 0) {
                 actuelle = 1;
             }
         }
     }
 
-    // Fonction dÈclenchÈe lorsque le joueur sort de la zone de collision
+    // Fonction d√©clench√©e lorsque le joueur sort de la zone de collision
     void OnTriggerExit2D(Collider2D objet) {
-        // VÈrifie si l'objet qui sort porte le tag "Player"
+        // V√©rifie si l'objet qui sort porte le tag "Player"
         if (objet.transform.tag == "Player") {
-            // Efface le texte du dialogue ‡ la sortie
+            // Efface le texte du dialogue √† la sortie
             affichage.text = "";
         }
     }

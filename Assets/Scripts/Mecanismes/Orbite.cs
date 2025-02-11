@@ -1,17 +1,18 @@
 using UnityEngine;
 
 public class Orbite : MonoBehaviour
-
 {
-    public Transform pivot; // Le point pivot autour duquel on veut orbiter
-    public float orbitSpeed = 10f; // La vitesse de líorbite
+    public Transform pivot; // Objet autour duquel ce GameObject va tourner
+    public float orbitSpeed = 10f; // Vitesse de rotation autour du pivot
 
     private void Update() {
-        // Fait tourner le GameObject autour du point pivot en utilisant líaxe vertical (Y) comme axe de rotation
-        // Le deuxiËme argument, Vector3.up, correspond ‡ líaxe de rotation
-        // Le troisiËme argument, orbitSpeed * Time.deltaTime, correspond ‡ la vitesse de rotation
-        transform.RotateAround(pivot.position, Vector3.forward, orbitSpeed * Time.deltaTime);
-
+        // V√©rifie que le pivot est bien d√©fini avant d'essayer de tourner autour
+        if (pivot != null) {
+            // Fait tourner cet objet autour du pivot
+            // pivot.position : centre de rotation
+            // Vector3.up : axe de rotation (Y, vers le haut)
+            // orbitSpeed * Time.deltaTime : vitesse de rotation ajust√©e au temps r√©el
+            transform.RotateAround(pivot.position, Vector3.up, orbitSpeed * Time.deltaTime);
+        }
     }
-
 }

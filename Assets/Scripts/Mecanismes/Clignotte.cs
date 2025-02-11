@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class Clignotte : MonoBehaviour
 {
-    public int dureeClignotementmin = 1;  // DurÈe minimale entre chaque clignotement
-    public int dureeClignotementmax = 1;  // DurÈe maximale entre chaque clignotement
-    private bool isActive = false;        // …tat actuel (activÈ ou dÈsactivÈ)
+    public int dureeClignotementmin = 1;  // Dur√©e minimale entre chaque clignotement
+    public int dureeClignotementmax = 1;  // Dur√©e maximale entre chaque clignotement
+    private bool isActive = false;        // √âtat actuel (activ√© ou d√©sactiv√©)
     private int dureeClignotement;
 
     private void Start() {
-        //lancer le 1er clignotement
+        // Lancer le premier clignotement avec une dur√©e al√©atoire
         dureeClignotement = Random.Range(dureeClignotementmin, dureeClignotementmax);
         Timers.StartTimer(dureeClignotement, Toggle);
     }
 
-    // MÈthode appelÈe ‡ la fin du timer pour inverser l'Ètat et reprogrammer le timer
+    // M√©thode appel√©e √† la fin du timer pour inverser l'√©tat et reprogrammer le timer
     private void Toggle() {
-        // Inverse l'Ètat de visibilitÈ
+        // Inverse l'√©tat de visibilit√©
         isActive = !isActive;
         this.gameObject.SetActive(isActive);
 
-        // RedÈmarrer un nouveau timer pour le prochain clignotement
+        // Red√©marrer un nouveau timer pour le prochain clignotement
         dureeClignotement = Random.Range(dureeClignotementmin, dureeClignotementmax);
         Timers.StartTimer(dureeClignotement, Toggle);
     }
