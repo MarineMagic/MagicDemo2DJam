@@ -8,30 +8,30 @@ public class Timers : MonoBehaviour
     public static List<Timer> timers = new List<Timer>();
 
     private void Update() {
-        // Boucle pour retirer les timers terminés
+        // Boucle pour retirer les timers terminÃ©s
         foreach (Timer timer in timers) {
-            timer.Update(Time.deltaTime);//met à jour les timers
+            timer.Update(Time.deltaTime);//met Ã© jour les timers
             if (timer.fini)
                 timers.Remove(timer);
                 break; //pour eviter un message d'erreur dans la liste
         }
     }
 
-    // fonction pour démarrer un nouveau timer, peut etre utilisée depuis n'importe quel script avec ce code:
+    // fonction pour dÃ©marrer un nouveau timer, peut etre utilisÃ©e depuis n'importe quel script avec ce code:
     // Timers.StartTimer(TEMPS ICI, FONCTION ICI);
     public static void StartTimer(float duree, Action action) {
         timers.Add(new Timer(duree, action));
     }
 
-    // Classe interne qui représente un timer individuel
+    // Classe interne qui reprÃ©sente un timer individuel
     public class Timer
     {
-        private float duree;      // Durée totale du timer
-        private float tempsecoule;   // Temps écoulé depuis le démarrage du timer
-        private Action action;     // Action à exécuter lorsque le timer se termine
-        public bool fini;// Indique si le timer est terminé
+        private float duree;      // DurÃ©e totale du timer
+        private float tempsecoule;   // Temps Ã©coulÃ© depuis le dÃ©marrage du timer
+        private Action action;     // Action Ã© exÃ©cuter lorsque le timer se termine
+        public bool fini;// Indique si le timer est terminÃ©
 
-        public Timer(float duration, Action callback) { //quand on génère un timer, on copie les chiffres donnés dans ses propres propriétés
+        public Timer(float duration, Action callback) { //quand on gÃ©nÃ©re un timer, on copie les chiffres donnÃ©s dans ses propres propriÃ©tÃ©s
             this.duree = duration;
             this.action = callback;
             tempsecoule = 0f;
@@ -42,7 +42,7 @@ public class Timers : MonoBehaviour
             if (fini)
                 return;
             tempsecoule += deltaTime;
-            //si il est fini, il lance l'action qui à été attaché
+            //si il est fini, il lance l'action qui Ã© Ã©tÃ© attachÃ©
             if (tempsecoule >= duree) {
                 action?.Invoke();
                 fini = true;

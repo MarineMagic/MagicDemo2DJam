@@ -19,7 +19,7 @@ public class VIE : MonoBehaviour
         // Calcule la proportion des PV actuels par rapport aux PV max
         float healthRatio = SanteeEnCours / maxSantee;
 
-        // Met à jour l'échelle du sprite de l'indicateur
+        // Met Ã  jour l'Ã©chelle du sprite de l'indicateur
         remplissageVisuel.transform.localScale = new Vector3(tailleInitiale.x * healthRatio, tailleInitiale.y, tailleInitiale.z);
     }
 
@@ -30,6 +30,6 @@ public class VIE : MonoBehaviour
 
     public void Soigne(float amount) {
         SanteeEnCours += amount;
-        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee); // Assure que les PV ne dépassent pas le max
+        SanteeEnCours = Mathf.Clamp(SanteeEnCours, 0, maxSantee); // Assure que les PV ne dÃ©passent pas le max
     }
 }
