@@ -1,0 +1,3921 @@
+fileFormatVersion: 2
+guid: f2533d9a216194c48bda1c29d797e124
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1147
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -35.5}
+        - {x: 24, y: -29.5}
+        - {x: 28, y: -26.5}
+        - {x: 35, y: -13.5}
+        - {x: 38, y: -12.5}
+        - {x: 41, y: -9.5}
+        - {x: 41, y: -4.5}
+        - {x: 30, y: -0.5}
+        - {x: 19, y: 10.5}
+        - {x: 1, y: 22.5}
+        - {x: -6, y: 33.5}
+        - {x: -14, y: 40.5}
+        - {x: -17, y: 41.5}
+        - {x: -33, y: 41.5}
+        - {x: -36, y: 38.5}
+        - {x: -41, y: 27.5}
+        - {x: -41, y: 6.5}
+        - {x: -40, y: 3.5}
+        - {x: -37, y: -7.5}
+        - {x: -35, y: -13.5}
+        - {x: -32, y: -18.5}
+        - {x: -19, y: -21.5}
+        - {x: -16, y: -32.5}
+        - {x: -16, y: -36.5}
+        - {x: -12, y: -41.5}
+        - {x: -6, y: -41.5}
+        - {x: 1, y: -35.5}
+        - {x: 6, y: -41.5}
+        - {x: 12, y: -41.5}
+      - - {x: 5, y: -15.5}
+        - {x: 5, y: -18.5}
+        - {x: 7, y: -20.5}
+        - {x: 7, y: -19.5}
+      physicsShape:
+      - - {x: 9, y: -41.5}
+        - {x: 12, y: -39.5}
+        - {x: 16, y: -32.5}
+        - {x: 25, y: -28.5}
+        - {x: 27, y: -26.5}
+        - {x: 36, y: -12.5}
+        - {x: 41, y: -9.5}
+        - {x: 41, y: -4.5}
+        - {x: 32, y: -2.5}
+        - {x: 20, y: 8.5}
+        - {x: 17, y: 11.5}
+        - {x: 5, y: 17.5}
+        - {x: -1, y: 21.5}
+        - {x: -4, y: 28.5}
+        - {x: -12, y: 38.5}
+        - {x: -19, y: 41.5}
+        - {x: -32, y: 41.5}
+        - {x: -35, y: 40.5}
+        - {x: -41, y: 25.5}
+        - {x: -41, y: 8.5}
+        - {x: -38, y: 1.5}
+        - {x: -37, y: -5.5}
+        - {x: -35, y: -11.5}
+        - {x: -32, y: -18.5}
+        - {x: -20, y: -20.5}
+        - {x: -16, y: -29.5}
+        - {x: -14, y: -37.5}
+        - {x: -11, y: -41.5}
+        - {x: -6, y: -41.5}
+        - {x: -6, y: -33.5}
+        - {x: 1, y: -32.5}
+        - {x: 6, y: -41.5}
+      - - {x: 5, y: -17.5}
+        - {x: 5, y: -14.5}
+        - {x: 5, y: -15.5}
+        - {x: 7, y: -21.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 3d764d0907c64aa449610429da009452
+      internalID: 1748879214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1149
+        width: 85
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -18.5}
+        - {x: -17.5, y: -21.5}
+        - {x: -8.5, y: -29.5}
+        - {x: 0.5, y: -38.5}
+        - {x: 6.5, y: -38.5}
+        - {x: 7.5, y: -36.5}
+        - {x: 9.5, y: -28.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 23.5, y: -34.5}
+        - {x: 24.5, y: -28.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 36.5, y: -13.5}
+        - {x: 42.5, y: -5.5}
+        - {x: 42.5, y: 0.5}
+        - {x: 32.5, y: 1.5}
+        - {x: 26.5, y: 7.5}
+        - {x: 12.5, y: 14.5}
+        - {x: -0.5, y: 19.5}
+        - {x: -3.5, y: 26.5}
+        - {x: -17.5, y: 38.5}
+        - {x: -37.5, y: 38.5}
+        - {x: -41.5, y: 33.5}
+        - {x: -42.5, y: 27.5}
+        - {x: -42.5, y: 5.5}
+        - {x: -41.5, y: 2.5}
+        - {x: -35.5, y: -2.5}
+        - {x: -37.5, y: -11.5}
+        - {x: -36.5, y: -25.5}
+        - {x: -32.5, y: -35.5}
+        - {x: -30.5, y: -38.5}
+        - {x: -24.5, y: -38.5}
+        - {x: -23.5, y: -37.5}
+        - {x: -23.5, y: -31.5}
+        - {x: -24.5, y: -19.5}
+      physicsShape:
+      - - {x: -20.5, y: -18.5}
+        - {x: -8.5, y: -26.5}
+        - {x: -4.5, y: -34.5}
+        - {x: 1.5, y: -38.5}
+        - {x: 6.5, y: -38.5}
+        - {x: 7.5, y: -36.5}
+        - {x: 4.5, y: -33.5}
+        - {x: 8.5, y: -27.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 20.5, y: -35.5}
+        - {x: 22.5, y: -33.5}
+        - {x: 31.5, y: -23.5}
+        - {x: 35.5, y: -14.5}
+        - {x: 42.5, y: -6.5}
+        - {x: 42.5, y: 0.5}
+        - {x: 36.5, y: 0.5}
+        - {x: 30.5, y: 2.5}
+        - {x: 16.5, y: 13.5}
+        - {x: 6.5, y: 16.5}
+        - {x: -0.5, y: 17.5}
+        - {x: -6.5, y: 28.5}
+        - {x: -14.5, y: 35.5}
+        - {x: -19.5, y: 38.5}
+        - {x: -36.5, y: 38.5}
+        - {x: -38.5, y: 37.5}
+        - {x: -39.5, y: 34.5}
+        - {x: -42.5, y: 24.5}
+        - {x: -42.5, y: 7.5}
+        - {x: -39.5, y: 0.5}
+        - {x: -34.5, y: -4.5}
+        - {x: -37.5, y: -17.5}
+        - {x: -32.5, y: -33.5}
+        - {x: -30.5, y: -38.5}
+        - {x: -24.5, y: -38.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -24.5, y: -30.5}
+        - {x: -25.5, y: -20.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: f865c0379ab66a64dbee4a878ad08b15
+      internalID: 1923671675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1157
+        width: 100
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: -10.5}
+        - {x: 50, y: -6.5}
+        - {x: 50, y: 1.5}
+        - {x: 36, y: 3.5}
+        - {x: 20, y: 7.5}
+        - {x: 2, y: 10.5}
+        - {x: -6, y: 19.5}
+        - {x: -17, y: 24.5}
+        - {x: -20, y: 27.5}
+        - {x: -21, y: 32.5}
+        - {x: -25, y: 36.5}
+        - {x: -32, y: 36.5}
+        - {x: -33, y: 33.5}
+        - {x: -34, y: 23.5}
+        - {x: -40, y: 17.5}
+        - {x: -40, y: -2.5}
+        - {x: -39, y: -5.5}
+        - {x: -37, y: -10.5}
+        - {x: -28, y: -21.5}
+        - {x: -31, y: -21.5}
+        - {x: -38, y: -22.5}
+        - {x: -47, y: -23.5}
+        - {x: -50, y: -25.5}
+        - {x: -50, y: -31.5}
+        - {x: -49, y: -32.5}
+        - {x: -33, y: -33.5}
+        - {x: -28, y: -35.5}
+        - {x: -20, y: -35.5}
+        - {x: -14, y: -33.5}
+        - {x: -9, y: -29.5}
+        - {x: 1, y: -32.5}
+        - {x: 11, y: -33.5}
+        - {x: 14, y: -36.5}
+        - {x: 35, y: -36.5}
+        - {x: 45, y: -24.5}
+        - {x: 46, y: -18.5}
+      physicsShape:
+      - - {x: 44, y: -26.5}
+        - {x: 45, y: -20.5}
+        - {x: 46, y: -11.5}
+        - {x: 50, y: -5.5}
+        - {x: 50, y: 1.5}
+        - {x: 48, y: 1.5}
+        - {x: 37, y: 0.5}
+        - {x: 34, y: 3.5}
+        - {x: 25, y: 5.5}
+        - {x: 15, y: 7.5}
+        - {x: 7, y: 8.5}
+        - {x: 4, y: 8.5}
+        - {x: -4, y: 17.5}
+        - {x: -19, y: 24.5}
+        - {x: -21, y: 24.5}
+        - {x: -22, y: 32.5}
+        - {x: -25, y: 36.5}
+        - {x: -31, y: 36.5}
+        - {x: -33, y: 32.5}
+        - {x: -32, y: 23.5}
+        - {x: -38, y: 20.5}
+        - {x: -40, y: 14.5}
+        - {x: -40, y: 4.5}
+        - {x: -41, y: -0.5}
+        - {x: -35, y: -12.5}
+        - {x: -27, y: -20.5}
+        - {x: -27, y: -22.5}
+        - {x: -33, y: -22.5}
+        - {x: -43, y: -24.5}
+        - {x: -45, y: -23.5}
+        - {x: -48, y: -24.5}
+        - {x: -50, y: -26.5}
+        - {x: -50, y: -30.5}
+        - {x: -49, y: -31.5}
+        - {x: -44, y: -32.5}
+        - {x: -34, y: -32.5}
+        - {x: -29, y: -35.5}
+        - {x: -24, y: -35.5}
+        - {x: -16, y: -34.5}
+        - {x: -9, y: -29.5}
+        - {x: 0, y: -31.5}
+        - {x: 10, y: -32.5}
+        - {x: 13, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 31, y: -34.5}
+        - {x: 33, y: -36.5}
+        - {x: 35, y: -36.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: d1c28331ef7cea74b96858c5ef5cd894
+      internalID: -1730865218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1156
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -29}
+        - {x: 22.5, y: -29}
+        - {x: 38.5, y: -25}
+        - {x: 40.5, y: -23}
+        - {x: 46.5, y: -13}
+        - {x: 46.5, y: 6}
+        - {x: 47.5, y: 7}
+        - {x: 47.5, y: 15}
+        - {x: -0.5, y: 15}
+        - {x: -5.5, y: 21}
+        - {x: -16.5, y: 26}
+        - {x: -29.5, y: 26}
+        - {x: -37.5, y: 24}
+        - {x: -41.5, y: 29}
+        - {x: -47.5, y: 29}
+        - {x: -47.5, y: 16}
+        - {x: -41.5, y: 5}
+        - {x: -38.5, y: -9}
+        - {x: -33.5, y: -17}
+        - {x: -42.5, y: -18}
+        - {x: -47.5, y: -22}
+        - {x: -47.5, y: -23}
+        - {x: -43.5, y: -27}
+        - {x: -30.5, y: -28}
+        - {x: -27.5, y: -29}
+        - {x: -8.5, y: -29}
+        - {x: -3.5, y: -26}
+        - {x: 19.5, y: -26}
+      physicsShape:
+      - - {x: 21.5, y: -29}
+        - {x: 30.5, y: -26}
+        - {x: 37.5, y: -25}
+        - {x: 40.5, y: -24}
+        - {x: 45.5, y: -14}
+        - {x: 46.5, y: -9}
+        - {x: 46.5, y: 1}
+        - {x: 47.5, y: 5}
+        - {x: 47.5, y: 15}
+        - {x: 43.5, y: 13}
+        - {x: 11.5, y: 15}
+        - {x: -0.5, y: 14}
+        - {x: -3.5, y: 19}
+        - {x: -12.5, y: 23}
+        - {x: -26.5, y: 26}
+        - {x: -30.5, y: 25}
+        - {x: -37.5, y: 23}
+        - {x: -40.5, y: 29}
+        - {x: -47.5, y: 29}
+        - {x: -47.5, y: 20}
+        - {x: -42.5, y: 11}
+        - {x: -38.5, y: -4}
+        - {x: -35.5, y: -11}
+        - {x: -28.5, y: -16}
+        - {x: -33.5, y: -19}
+        - {x: -40.5, y: -18}
+        - {x: -47.5, y: -21}
+        - {x: -47.5, y: -23}
+        - {x: -44.5, y: -26}
+        - {x: -39.5, y: -27}
+        - {x: -32.5, y: -26}
+        - {x: -26.5, y: -29}
+        - {x: -7.5, y: -29}
+        - {x: -3.5, y: -25}
+        - {x: 18.5, y: -25}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 40189ce055dd1704fb48323c765b5e24
+      internalID: -324888371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1154
+        width: 103
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -19.5}
+        - {x: 46.5, y: -15.5}
+        - {x: 49.5, y: -12.5}
+        - {x: 51.5, y: -6.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 42.5, y: 24.5}
+        - {x: 21.5, y: 22.5}
+        - {x: 14.5, y: 21.5}
+        - {x: 11.5, y: 20.5}
+        - {x: 2.5, y: 18.5}
+        - {x: -4.5, y: 23.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -28.5, y: 24.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -49.5, y: 14.5}
+        - {x: -51.5, y: 13.5}
+        - {x: -51.5, y: 5.5}
+        - {x: -50.5, y: 3.5}
+        - {x: -31.5, y: -7.5}
+        - {x: -32.5, y: -13.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -36.5, y: -18.5}
+        - {x: -32.5, y: -22.5}
+        - {x: -20.5, y: -23.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 3.5, y: -24.5}
+        - {x: 6.5, y: -21.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 20.5, y: -20.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: a1fd9fc959186894dba13f56e2a9d153
+      internalID: -1212408640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1152
+        width: 104
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -19.5}
+        - {x: 42, y: -18.5}
+        - {x: 51, y: -11.5}
+        - {x: 52, y: -5.5}
+        - {x: 52, y: 11.5}
+        - {x: 50, y: 15.5}
+        - {x: 50, y: 27.5}
+        - {x: 43, y: 27.5}
+        - {x: 37, y: 23.5}
+        - {x: 32, y: 23.5}
+        - {x: 24, y: 22.5}
+        - {x: 19, y: 21.5}
+        - {x: 10, y: 18.5}
+        - {x: 3, y: 15.5}
+        - {x: -2, y: 16.5}
+        - {x: -17, y: 17.5}
+        - {x: -31, y: 12.5}
+        - {x: -39, y: 2.5}
+        - {x: -38, y: -4.5}
+        - {x: -33, y: -11.5}
+        - {x: -39, y: -11.5}
+        - {x: -49, y: -12.5}
+        - {x: -52, y: -15.5}
+        - {x: -52, y: -20.5}
+        - {x: -49, y: -23.5}
+        - {x: -39, y: -24.5}
+        - {x: -24, y: -25.5}
+        - {x: -14, y: -27.5}
+        - {x: 10, y: -27.5}
+        - {x: 16, y: -25.5}
+        - {x: 23, y: -23.5}
+        - {x: 31, y: -19.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 81d5cd4696ac8ed489ab3b5ed84b5348
+      internalID: 2085794380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1147
+        width: 120
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -24}
+        - {x: -8, y: -25}
+        - {x: -2, y: -27}
+        - {x: 11, y: -27}
+        - {x: 15, y: -23}
+        - {x: 21, y: -23}
+        - {x: 30, y: -20}
+        - {x: 33, y: -18}
+        - {x: 42, y: -18}
+        - {x: 52, y: -13}
+        - {x: 60, y: -7}
+        - {x: 60, y: 4}
+        - {x: 59, y: 6}
+        - {x: 56, y: 14}
+        - {x: 54, y: 18}
+        - {x: 54, y: 30}
+        - {x: 48, y: 30}
+        - {x: 42, y: 27}
+        - {x: 36, y: 26}
+        - {x: 28, y: 25}
+        - {x: 23, y: 24}
+        - {x: 17, y: 22}
+        - {x: 8, y: 17}
+        - {x: -1, y: 19}
+        - {x: -12, y: 19}
+        - {x: -17, y: 18}
+        - {x: -23, y: 16}
+        - {x: -33, y: 6}
+        - {x: -34, y: 0}
+        - {x: -33, y: -3}
+        - {x: -27, y: -12}
+        - {x: -58, y: -21}
+        - {x: -60, y: -24}
+        - {x: -60, y: -30}
+        - {x: -45, y: -30}
+        - {x: -37, y: -28}
+        - {x: -26, y: -25}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 470afcf962a45c44592ddb5f9e2ae5f2
+      internalID: 1414325098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1145
+        width: 123
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -26.5}
+        - {x: 13.5, y: -26.5}
+        - {x: 17.5, y: -22.5}
+        - {x: 23.5, y: -22.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 34.5, y: -17.5}
+        - {x: 43.5, y: -18.5}
+        - {x: 54.5, y: -12.5}
+        - {x: 60.5, y: -12.5}
+        - {x: 61.5, y: -11.5}
+        - {x: 61.5, y: -4.5}
+        - {x: 58.5, y: -2.5}
+        - {x: 60.5, y: 3.5}
+        - {x: 60.5, y: 9.5}
+        - {x: 57.5, y: 15.5}
+        - {x: 56.5, y: 31.5}
+        - {x: 50.5, y: 31.5}
+        - {x: 44.5, y: 27.5}
+        - {x: 38.5, y: 26.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 14.5, y: 20.5}
+        - {x: 10.5, y: 17.5}
+        - {x: 1.5, y: 19.5}
+        - {x: -9.5, y: 19.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -32.5, y: 4.5}
+        - {x: -31.5, y: -0.5}
+        - {x: -28.5, y: -7.5}
+        - {x: -40.5, y: -13.5}
+        - {x: -54.5, y: -19.5}
+        - {x: -61.5, y: -23.5}
+        - {x: -61.5, y: -31.5}
+        - {x: -51.5, y: -31.5}
+        - {x: -30.5, y: -22.5}
+        - {x: -16.5, y: -22.5}
+        - {x: -2.5, y: -24.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: ca8bf9d68bd770540bd97a7574d4d909
+      internalID: -2078290445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1146
+        width: 123
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: -13.5, y: -22.5}
+        - {x: -0.5, y: -24.5}
+        - {x: 2.5, y: -26.5}
+        - {x: 16.5, y: -26.5}
+        - {x: 20.5, y: -23.5}
+        - {x: 29.5, y: -22.5}
+        - {x: 37.5, y: -17.5}
+        - {x: 43.5, y: -18.5}
+        - {x: 56.5, y: -18.5}
+        - {x: 61.5, y: -20.5}
+        - {x: 61.5, y: -11.5}
+        - {x: 60.5, y: -10.5}
+        - {x: 61.5, y: -4.5}
+        - {x: 61.5, y: 13.5}
+        - {x: 60.5, y: 15.5}
+        - {x: 59.5, y: 25.5}
+        - {x: 59.5, y: 30.5}
+        - {x: 52.5, y: 30.5}
+        - {x: 47.5, y: 27.5}
+        - {x: 41.5, y: 26.5}
+        - {x: 27.5, y: 24.5}
+        - {x: 14.5, y: 19.5}
+        - {x: 7.5, y: 17.5}
+        - {x: 3.5, y: 19.5}
+        - {x: -6.5, y: 19.5}
+        - {x: -12.5, y: 18.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -29.5, y: 5.5}
+        - {x: -35.5, y: -5.5}
+        - {x: -41.5, y: -8.5}
+        - {x: -49.5, y: -13.5}
+        - {x: -58.5, y: -19.5}
+        - {x: -61.5, y: -23.5}
+        - {x: -61.5, y: -30.5}
+        - {x: -53.5, y: -30.5}
+        - {x: -39.5, y: -22.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -21.5, y: -11.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: edfd28c57cb65d64c8667f48797a2f18
+      internalID: -428803686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1014
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.38452625, y: 0.38422248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -49.5}
+        - {x: 13.5, y: -47.5}
+        - {x: 25.5, y: -35.5}
+        - {x: 29.5, y: -35.5}
+        - {x: 36.5, y: -29.5}
+        - {x: 34.5, y: -26.5}
+        - {x: 26.5, y: -23.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 27.5, y: -10.5}
+        - {x: 36.5, y: -0.5}
+        - {x: 38.5, y: -0.5}
+        - {x: 42.5, y: 1.5}
+        - {x: 42.5, y: 16.5}
+        - {x: 38.5, y: 30.5}
+        - {x: 35.5, y: 41.5}
+        - {x: 32.5, y: 51.5}
+        - {x: 29.5, y: 54.5}
+        - {x: 22.5, y: 54.5}
+        - {x: 21.5, y: 53.5}
+        - {x: 21.5, y: 46.5}
+        - {x: 27.5, y: 23.5}
+        - {x: 29.5, y: 16.5}
+        - {x: 30.5, y: 7.5}
+        - {x: 21.5, y: 1.5}
+        - {x: 20.5, y: 2.5}
+        - {x: 21.5, y: 18.5}
+        - {x: 19.5, y: 22.5}
+        - {x: 17.5, y: 27.5}
+        - {x: 15.5, y: 31.5}
+        - {x: 7.5, y: 39.5}
+        - {x: 0.5, y: 38.5}
+        - {x: -6.5, y: 33.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -23.5, y: 14.5}
+        - {x: -24.5, y: 8.5}
+        - {x: -33.5, y: 16.5}
+        - {x: -33.5, y: 21.5}
+        - {x: -42.5, y: 25.5}
+        - {x: -42.5, y: 14.5}
+        - {x: -39.5, y: 8.5}
+        - {x: -35.5, y: 2.5}
+        - {x: -32.5, y: -5.5}
+        - {x: -26.5, y: -12.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -32.5, y: -37.5}
+        - {x: -38.5, y: -42.5}
+        - {x: -35.5, y: -48.5}
+        - {x: -31.5, y: -47.5}
+        - {x: -24.5, y: -43.5}
+        - {x: -17.5, y: -43.5}
+        - {x: -17.5, y: -53.5}
+        - {x: -16.5, y: -54.5}
+        - {x: -10.5, y: -54.5}
+        - {x: -8.5, y: -53.5}
+        - {x: -3.5, y: -45.5}
+        - {x: 0.5, y: -49.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 7ff3b0a74fe13354289e55e39ddbd138
+      internalID: -1803651484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1014
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -41.5}
+        - {x: 10, y: -37.5}
+        - {x: 21, y: -34.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 17, y: -24.5}
+        - {x: 15, y: -19.5}
+        - {x: 23, y: -13.5}
+        - {x: 41, y: 2.5}
+        - {x: 41, y: 10.5}
+        - {x: 42, y: 22.5}
+        - {x: 43, y: 29.5}
+        - {x: 43, y: 51.5}
+        - {x: 42, y: 52.5}
+        - {x: 35, y: 52.5}
+        - {x: 32, y: 48.5}
+        - {x: 31, y: 32.5}
+        - {x: 30, y: 18.5}
+        - {x: 28, y: 18.5}
+        - {x: 27, y: 6.5}
+        - {x: 18, y: -0.5}
+        - {x: 17, y: 1.5}
+        - {x: 19, y: 8.5}
+        - {x: 19, y: 22.5}
+        - {x: 18, y: 28.5}
+        - {x: 6, y: 38.5}
+        - {x: 2, y: 37.5}
+        - {x: -13, y: 30.5}
+        - {x: -22, y: 21.5}
+        - {x: -24, y: 15.5}
+        - {x: -25, y: 13.5}
+        - {x: -30, y: 17.5}
+        - {x: -30, y: 24.5}
+        - {x: -35, y: 32.5}
+        - {x: -42, y: 27.5}
+        - {x: -41, y: 21.5}
+        - {x: -37, y: 9.5}
+        - {x: -36, y: -2.5}
+        - {x: -32, y: -7.5}
+        - {x: -32, y: -14.5}
+        - {x: -31, y: -28.5}
+        - {x: -35, y: -30.5}
+        - {x: -43, y: -37.5}
+        - {x: -43, y: -43.5}
+        - {x: -42, y: -44.5}
+        - {x: -36, y: -42.5}
+        - {x: -25, y: -43.5}
+        - {x: -28, y: -49.5}
+        - {x: -28, y: -51.5}
+        - {x: -27, y: -52.5}
+        - {x: -22, y: -52.5}
+        - {x: -16, y: -47.5}
+        - {x: -12, y: -43.5}
+        - {x: -1, y: -43.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: fb7216b8ae9870d4f9dbf2cf120af670
+      internalID: -2131063949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1015
+        width: 105
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: -32.5}
+        - {x: 1.5, y: -31.5}
+        - {x: 2.5, y: -32.5}
+        - {x: 7.5, y: -32.5}
+        - {x: 9.5, y: -30.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 5.5, y: -23.5}
+        - {x: 5.5, y: -18.5}
+        - {x: 14.5, y: -13.5}
+        - {x: 20.5, y: -7.5}
+        - {x: 31.5, y: -2.5}
+        - {x: 34.5, y: 1.5}
+        - {x: 36.5, y: 10.5}
+        - {x: 50.5, y: 32.5}
+        - {x: 52.5, y: 35.5}
+        - {x: 52.5, y: 45.5}
+        - {x: 45.5, y: 45.5}
+        - {x: 44.5, y: 44.5}
+        - {x: 38.5, y: 35.5}
+        - {x: 33.5, y: 27.5}
+        - {x: 30.5, y: 23.5}
+        - {x: 23.5, y: 12.5}
+        - {x: 23.5, y: 7.5}
+        - {x: 16.5, y: 3.5}
+        - {x: 11.5, y: 0.5}
+        - {x: 13.5, y: 5.5}
+        - {x: 15.5, y: 12.5}
+        - {x: 15.5, y: 26.5}
+        - {x: 13.5, y: 31.5}
+        - {x: 6.5, y: 38.5}
+        - {x: -0.5, y: 38.5}
+        - {x: -6.5, y: 36.5}
+        - {x: -14.5, y: 34.5}
+        - {x: -17.5, y: 33.5}
+        - {x: -24.5, y: 25.5}
+        - {x: -29.5, y: 24.5}
+        - {x: -28.5, y: 29.5}
+        - {x: -28.5, y: 32.5}
+        - {x: -32.5, y: 37.5}
+        - {x: -35.5, y: 38.5}
+        - {x: -39.5, y: 32.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -5.5}
+        - {x: -39.5, y: -9.5}
+        - {x: -40.5, y: -17.5}
+        - {x: -52.5, y: -29.5}
+        - {x: -52.5, y: -36.5}
+        - {x: -48.5, y: -36.5}
+        - {x: -40.5, y: -33.5}
+        - {x: -40.5, y: -45.5}
+        - {x: -32.5, y: -45.5}
+        - {x: -23.5, y: -39.5}
+        - {x: -19.5, y: -34.5}
+        - {x: -14.5, y: -34.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 21274f8f382716843ac88ec59f79c76e
+      internalID: 1820333063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1016
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -27.5}
+        - {x: -9.5, y: -30.5}
+        - {x: -6.5, y: -30.5}
+        - {x: -4.5, y: -28.5}
+        - {x: -4.5, y: -18.5}
+        - {x: 1.5, y: -17.5}
+        - {x: 9.5, y: -12.5}
+        - {x: 13.5, y: -8.5}
+        - {x: 22.5, y: -6.5}
+        - {x: 28.5, y: -1.5}
+        - {x: 31.5, y: 5.5}
+        - {x: 49.5, y: 17.5}
+        - {x: 54.5, y: 19.5}
+        - {x: 60.5, y: 25.5}
+        - {x: 60.5, y: 33.5}
+        - {x: 58.5, y: 34.5}
+        - {x: 55.5, y: 34.5}
+        - {x: 49.5, y: 31.5}
+        - {x: 43.5, y: 27.5}
+        - {x: 35.5, y: 21.5}
+        - {x: 29.5, y: 18.5}
+        - {x: 20.5, y: 12.5}
+        - {x: 17.5, y: 7.5}
+        - {x: 10.5, y: 3.5}
+        - {x: 9.5, y: 3.5}
+        - {x: 13.5, y: 10.5}
+        - {x: 14.5, y: 16.5}
+        - {x: 14.5, y: 26.5}
+        - {x: 12.5, y: 31.5}
+        - {x: 5.5, y: 38.5}
+        - {x: -0.5, y: 38.5}
+        - {x: -13.5, y: 36.5}
+        - {x: -16.5, y: 35.5}
+        - {x: -21.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: 36.5}
+        - {x: -26.5, y: 39.5}
+        - {x: -32.5, y: 39.5}
+        - {x: -35.5, y: 35.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -40.5, y: 12.5}
+        - {x: -41.5, y: 2.5}
+        - {x: -45.5, y: -5.5}
+        - {x: -46.5, y: -12.5}
+        - {x: -50.5, y: -14.5}
+        - {x: -57.5, y: -20.5}
+        - {x: -60.5, y: -23.5}
+        - {x: -60.5, y: -29.5}
+        - {x: -59.5, y: -30.5}
+        - {x: -57.5, y: -30.5}
+        - {x: -53.5, y: -27.5}
+        - {x: -47.5, y: -28.5}
+        - {x: -51.5, y: -37.5}
+        - {x: -51.5, y: -39.5}
+        - {x: -42.5, y: -39.5}
+        - {x: -34.5, y: -35.5}
+        - {x: -30.5, y: -26.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 5f419437a9ef1db4a9254dc7a3427e73
+      internalID: -637324981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1017
+        width: 129
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -31}
+        - {x: -17.5, y: -31}
+        - {x: -15.5, y: -29}
+        - {x: -5.5, y: -21}
+        - {x: 0.5, y: -19}
+        - {x: 8.5, y: -15}
+        - {x: 13.5, y: -11}
+        - {x: 23.5, y: -9}
+        - {x: 29.5, y: -4}
+        - {x: 33.5, y: -3}
+        - {x: 47.5, y: -1}
+        - {x: 58.5, y: 1}
+        - {x: 61.5, y: 2}
+        - {x: 64.5, y: 5}
+        - {x: 64.5, y: 12}
+        - {x: 63.5, y: 13}
+        - {x: 45.5, y: 13}
+        - {x: 33.5, y: 11}
+        - {x: 26.5, y: 9}
+        - {x: 22.5, y: 8}
+        - {x: 17.5, y: 5}
+        - {x: 12.5, y: 6}
+        - {x: 15.5, y: 12}
+        - {x: 15.5, y: 24}
+        - {x: 13.5, y: 29}
+        - {x: 8.5, y: 33}
+        - {x: -13.5, y: 33}
+        - {x: -18.5, y: 37}
+        - {x: -25.5, y: 37}
+        - {x: -29.5, y: 32}
+        - {x: -31.5, y: 24}
+        - {x: -39.5, y: 12}
+        - {x: -46.5, y: 0}
+        - {x: -50.5, y: -8}
+        - {x: -64.5, y: -20}
+        - {x: -64.5, y: -26}
+        - {x: -63.5, y: -27}
+        - {x: -60.5, y: -27}
+        - {x: -59.5, y: -37}
+        - {x: -45.5, y: -37}
+        - {x: -41.5, y: -35}
+        - {x: -35.5, y: -27}
+        - {x: -24.5, y: -26}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 6f57b4a7bdfffb644a392c9bdd31a154
+      internalID: -622952996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1019
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -31.5}
+        - {x: -21, y: -23.5}
+        - {x: -6, y: -23.5}
+        - {x: 14, y: -15.5}
+        - {x: 23, y: -13.5}
+        - {x: 28, y: -8.5}
+        - {x: 37, y: -8.5}
+        - {x: 61, y: -6.5}
+        - {x: 65, y: -3.5}
+        - {x: 65, y: 2.5}
+        - {x: 63, y: 4.5}
+        - {x: 47, y: 4.5}
+        - {x: 23, y: 2.5}
+        - {x: 15, y: -0.5}
+        - {x: 19, y: 9.5}
+        - {x: 19, y: 18.5}
+        - {x: 17, y: 23.5}
+        - {x: 13, y: 27.5}
+        - {x: -5, y: 30.5}
+        - {x: -8, y: 32.5}
+        - {x: -15, y: 32.5}
+        - {x: -25, y: 22.5}
+        - {x: -41, y: 5.5}
+        - {x: -47, y: 4.5}
+        - {x: -53, y: 1.5}
+        - {x: -51, y: -6.5}
+        - {x: -56, y: -7.5}
+        - {x: -65, y: -16.5}
+        - {x: -65, y: -22.5}
+        - {x: -64, y: -23.5}
+        - {x: -55, y: -23.5}
+        - {x: -62, y: -28.5}
+        - {x: -62, y: -31.5}
+        - {x: -61, y: -32.5}
+        - {x: -45, y: -32.5}
+        - {x: -39, y: -26.5}
+        - {x: -32, y: -25.5}
+        - {x: -28, y: -30.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 3598b80303692b04fa372b16bf89c6c3
+      internalID: -848711265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1022
+        width: 131
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -25.5}
+        - {x: -0.5, y: -24.5}
+        - {x: 3.5, y: -21.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 24.5, y: -14.5}
+        - {x: 62.5, y: -14.5}
+        - {x: 65.5, y: -11.5}
+        - {x: 65.5, y: -5.5}
+        - {x: 63.5, y: -3.5}
+        - {x: 18.5, y: -2.5}
+        - {x: 23.5, y: 4.5}
+        - {x: 23.5, y: 15.5}
+        - {x: 17.5, y: 23.5}
+        - {x: 4.5, y: 26.5}
+        - {x: -10.5, y: 26.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -17.5, y: 22.5}
+        - {x: -27.5, y: 15.5}
+        - {x: -31.5, y: 11.5}
+        - {x: -49.5, y: 11.5}
+        - {x: -53.5, y: 9.5}
+        - {x: -52.5, y: 4.5}
+        - {x: -56.5, y: -3.5}
+        - {x: -65.5, y: -11.5}
+        - {x: -65.5, y: -18.5}
+        - {x: -64.5, y: -20.5}
+        - {x: -57.5, y: -19.5}
+        - {x: -62.5, y: -21.5}
+        - {x: -64.5, y: -24.5}
+        - {x: -64.5, y: -26.5}
+        - {x: -31.5, y: -26.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 72ef7e4ea8e30d2409752e7cce60e0fe
+      internalID: -2124184283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1022
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -23}
+        - {x: 6.5, y: -22}
+        - {x: 20.5, y: -21}
+        - {x: 23.5, y: -19}
+        - {x: 48.5, y: -22}
+        - {x: 62.5, y: -22}
+        - {x: 64.5, y: -20}
+        - {x: 64.5, y: -13}
+        - {x: 61.5, y: -11}
+        - {x: 56.5, y: -10}
+        - {x: 41.5, y: -8}
+        - {x: 32.5, y: -7}
+        - {x: 26.5, y: -5}
+        - {x: 20.5, y: -6}
+        - {x: 23.5, y: -2}
+        - {x: 26.5, y: 4}
+        - {x: 25.5, y: 13}
+        - {x: 20.5, y: 17}
+        - {x: 8.5, y: 23}
+        - {x: -10.5, y: 23}
+        - {x: -13.5, y: 22}
+        - {x: -20.5, y: 14}
+        - {x: -35.5, y: 15}
+        - {x: -43.5, y: 18}
+        - {x: -49.5, y: 19}
+        - {x: -51.5, y: 17}
+        - {x: -53.5, y: 5}
+        - {x: -55.5, y: 1}
+        - {x: -64.5, y: -8}
+        - {x: -64.5, y: -23}
+        - {x: -43.5, y: -23}
+        - {x: -34.5, y: -22}
+        - {x: -27.5, y: -23}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 9deb95dd66120fa4da59e8987dfe1f77
+      internalID: -871947659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1013
+        width: 129
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: -15}
+        - {x: 47.5, y: -13}
+        - {x: 25.5, y: -7}
+        - {x: 29.5, y: 2}
+        - {x: 29.5, y: 7}
+        - {x: 28.5, y: 10}
+        - {x: 25.5, y: 13}
+        - {x: 14.5, y: 20}
+        - {x: 9.5, y: 23}
+        - {x: 6.5, y: 24}
+        - {x: -3.5, y: 24}
+        - {x: -12.5, y: 20}
+        - {x: -16.5, y: 15}
+        - {x: -21.5, y: 16}
+        - {x: -27.5, y: 17}
+        - {x: -34.5, y: 22}
+        - {x: -40.5, y: 26}
+        - {x: -47.5, y: 26}
+        - {x: -53.5, y: 14}
+        - {x: -53.5, y: 8}
+        - {x: -62.5, y: 1}
+        - {x: -64.5, y: -3}
+        - {x: -64.5, y: -14}
+        - {x: -57.5, y: -17}
+        - {x: -50.5, y: -17}
+        - {x: -37.5, y: -15}
+        - {x: -31.5, y: -18}
+        - {x: -24.5, y: -20}
+        - {x: -19.5, y: -22}
+        - {x: -15.5, y: -23}
+        - {x: -1.5, y: -23}
+        - {x: 2.5, y: -22}
+        - {x: 3.5, y: -21}
+        - {x: 30.5, y: -21}
+        - {x: 41.5, y: -25}
+        - {x: 49.5, y: -26}
+        - {x: 63.5, y: -26}
+        - {x: 64.5, y: -25}
+        - {x: 64.5, y: -19}
+        - {x: 62.5, y: -17}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: a544e7279c4fdf24e9ec726806820eca
+      internalID: -1360274835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 874
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.23675664, y: 0.49369845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -47}
+        - {x: 3, y: -38}
+        - {x: 9, y: -37}
+        - {x: 12, y: -34}
+        - {x: 19, y: -34}
+        - {x: 26, y: -27}
+        - {x: 31, y: -17}
+        - {x: 36, y: -14}
+        - {x: 36, y: -7}
+        - {x: 26, y: -3}
+        - {x: 15, y: 5}
+        - {x: 9, y: 10}
+        - {x: 9, y: 27}
+        - {x: 6, y: 36}
+        - {x: 4, y: 40}
+        - {x: -4, y: 47}
+        - {x: -16, y: 47}
+        - {x: -24, y: 40}
+        - {x: -30, y: 35}
+        - {x: -34, y: 26}
+        - {x: -34, y: 16}
+        - {x: -33, y: 3}
+        - {x: -36, y: 2}
+        - {x: -36, y: -15}
+        - {x: -35, y: -19}
+        - {x: -33, y: -30}
+        - {x: -28, y: -35}
+        - {x: -27, y: -35}
+        - {x: -24, y: -32}
+        - {x: -24, y: -24}
+        - {x: -21, y: -24}
+        - {x: -21, y: -46}
+        - {x: -19, y: -47}
+        - {x: -14, y: -47}
+        - {x: -13, y: -45}
+        - {x: -12, y: -38}
+        - {x: -6, y: -47}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 117aa18df11f9a14b8fd50490303e8b9
+      internalID: -1848863443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 874
+        width: 81
+        height: 94
+      alignment: 9
+      pivot: {x: 0.31719217, y: 0.5063003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -47}
+        - {x: 4.5, y: -47}
+        - {x: 5.5, y: -46}
+        - {x: 6.5, y: -41}
+        - {x: 7.5, y: -32}
+        - {x: 6.5, y: -26}
+        - {x: 7.5, y: -33}
+        - {x: 10.5, y: -37}
+        - {x: 13.5, y: -37}
+        - {x: 22.5, y: -33}
+        - {x: 27.5, y: -29}
+        - {x: 29.5, y: -24}
+        - {x: 35.5, y: -18}
+        - {x: 40.5, y: -14}
+        - {x: 40.5, y: -8}
+        - {x: 33.5, y: -6}
+        - {x: 26.5, y: -2}
+        - {x: 15.5, y: 8}
+        - {x: 11.5, y: 11}
+        - {x: 13.5, y: 16}
+        - {x: 13.5, y: 25}
+        - {x: 10.5, y: 34}
+        - {x: 8.5, y: 39}
+        - {x: 0.5, y: 47}
+        - {x: -13.5, y: 47}
+        - {x: -19.5, y: 41}
+        - {x: -28.5, y: 44}
+        - {x: -33.5, y: 36}
+        - {x: -33.5, y: 21}
+        - {x: -34.5, y: 5}
+        - {x: -38.5, y: -15}
+        - {x: -40.5, y: -20}
+        - {x: -40.5, y: -31}
+        - {x: -35.5, y: -32}
+        - {x: -30.5, y: -22}
+        - {x: -23.5, y: -16}
+        - {x: -17.5, y: -24}
+        - {x: -19.5, y: -34}
+        - {x: -19.5, y: -46}
+        - {x: -17.5, y: -47}
+        - {x: -12.5, y: -47}
+        - {x: -11.5, y: -45}
+        - {x: -8.5, y: -38}
+        - {x: -2.5, y: -45}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 6d574a422e6f10345980a99fadeffd75
+      internalID: -1971100001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 875
+        width: 102
+        height: 96
+      alignment: 9
+      pivot: {x: 0.38966998, y: 0.4629809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -33}
+        - {x: 9, y: -26}
+        - {x: 10, y: -34}
+        - {x: 14, y: -39}
+        - {x: 17, y: -39}
+        - {x: 27, y: -35}
+        - {x: 38, y: -20}
+        - {x: 43, y: -18}
+        - {x: 47, y: -11}
+        - {x: 41, y: -8}
+        - {x: 33, y: -7}
+        - {x: 18, y: 7}
+        - {x: 16, y: 24}
+        - {x: 14, y: 36}
+        - {x: 31, y: 36}
+        - {x: 48, y: 39}
+        - {x: 51, y: 43}
+        - {x: 51, y: 48}
+        - {x: 2, y: 48}
+        - {x: -9, y: 46}
+        - {x: -23, y: 33}
+        - {x: -27, y: 24}
+        - {x: -27, y: 10}
+        - {x: -28, y: -1}
+        - {x: -35, y: -1}
+        - {x: -49, y: -6}
+        - {x: -51, y: -9}
+        - {x: -51, y: -16}
+        - {x: -45, y: -16}
+        - {x: -41, y: -14}
+        - {x: -24, y: -16}
+        - {x: -15, y: -26}
+        - {x: -19, y: -35}
+        - {x: -19, y: -45}
+        - {x: -16, y: -48}
+        - {x: -13, y: -48}
+        - {x: -10, y: -42}
+        - {x: -5, y: -40}
+        - {x: -2, y: -37}
+        - {x: 4, y: -48}
+        - {x: 10, y: -48}
+        - {x: 11, y: -47}
+        - {x: 11, y: -40}
+        - {x: 10, y: -39}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 8292a7100bc554b489e25ccd65adbb79
+      internalID: 518014358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 875
+        width: 94
+        height: 115
+      alignment: 9
+      pivot: {x: 0.41178504, y: 0.38669062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -41.5}
+        - {x: 16, y: -48.5}
+        - {x: 20, y: -48.5}
+        - {x: 28, y: -44.5}
+        - {x: 33, y: -40.5}
+        - {x: 41, y: -29.5}
+        - {x: 47, y: -25.5}
+        - {x: 47, y: -18.5}
+        - {x: 36, y: -15.5}
+        - {x: 24, y: -4.5}
+        - {x: 18, y: 1.5}
+        - {x: 21, y: 5.5}
+        - {x: 20, y: 16.5}
+        - {x: 15, y: 28.5}
+        - {x: 3, y: 37.5}
+        - {x: -2, y: 37.5}
+        - {x: 3, y: 50.5}
+        - {x: 3, y: 55.5}
+        - {x: 2, y: 57.5}
+        - {x: -5, y: 57.5}
+        - {x: -7, y: 56.5}
+        - {x: -16, y: 37.5}
+        - {x: -21, y: 26.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: 8.5}
+        - {x: -21, y: -3.5}
+        - {x: -25, y: -11.5}
+        - {x: -34, y: -13.5}
+        - {x: -46, y: -18.5}
+        - {x: -47, y: -19.5}
+        - {x: -47, y: -27.5}
+        - {x: -38, y: -27.5}
+        - {x: -37, y: -24.5}
+        - {x: -23, y: -25.5}
+        - {x: -17, y: -27.5}
+        - {x: -15, y: -32.5}
+        - {x: -17, y: -54.5}
+        - {x: -12, y: -57.5}
+        - {x: -11, y: -57.5}
+        - {x: -7, y: -50.5}
+        - {x: -2, y: -49.5}
+        - {x: 2, y: -46.5}
+        - {x: 7, y: -56.5}
+        - {x: 7, y: -57.5}
+        - {x: 16, y: -57.5}
+        - {x: 15, y: -51.5}
+        - {x: 14, y: -50.5}
+        - {x: 14, y: -43.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: b205538844a489641afd6200a51f222c
+      internalID: 2011041580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 875
+        width: 101
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4472209, y: 0.5128751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -31}
+        - {x: 17.5, y: -33}
+        - {x: 20.5, y: -37}
+        - {x: 23.5, y: -37}
+        - {x: 27.5, y: -34}
+        - {x: 34.5, y: -32}
+        - {x: 37.5, y: -29}
+        - {x: 45.5, y: -17}
+        - {x: 50.5, y: -14}
+        - {x: 50.5, y: -8}
+        - {x: 47.5, y: -7}
+        - {x: 36.5, y: -2}
+        - {x: 24.5, y: 9}
+        - {x: 24.5, y: 15}
+        - {x: 23.5, y: 29}
+        - {x: 18.5, y: 39}
+        - {x: 11.5, y: 46}
+        - {x: -2.5, y: 46}
+        - {x: -16.5, y: 33}
+        - {x: -19.5, y: 28}
+        - {x: -20.5, y: 16}
+        - {x: -17.5, y: 10}
+        - {x: -19.5, y: 13}
+        - {x: -25.5, y: 20}
+        - {x: -40.5, y: 41}
+        - {x: -46.5, y: 46}
+        - {x: -50.5, y: 45}
+        - {x: -50.5, y: 34}
+        - {x: -37.5, y: 15}
+        - {x: -30.5, y: 4}
+        - {x: -33.5, y: -10}
+        - {x: -37.5, y: -11}
+        - {x: -41.5, y: -15}
+        - {x: -42.5, y: -19}
+        - {x: -40.5, y: -23}
+        - {x: -34.5, y: -21}
+        - {x: -25.5, y: -15}
+        - {x: -13.5, y: -15}
+        - {x: -10.5, y: -22}
+        - {x: -7.5, y: -28}
+        - {x: -11.5, y: -32}
+        - {x: -11.5, y: -43}
+        - {x: -8.5, y: -46}
+        - {x: -6.5, y: -46}
+        - {x: -2.5, y: -40}
+        - {x: 2.5, y: -38}
+        - {x: 5.5, y: -35}
+        - {x: 11.5, y: -46}
+        - {x: 17.5, y: -46}
+        - {x: 18.5, y: -45}
+        - {x: 18.5, y: -38}
+        - {x: 17.5, y: -37}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: d4666183f9ec5544d964275e5e453089
+      internalID: 645650146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 875
+        width: 116
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -38}
+        - {x: 30, y: -38}
+        - {x: 40, y: -34}
+        - {x: 47, y: -27}
+        - {x: 47, y: -22}
+        - {x: 57, y: -15}
+        - {x: 58, y: -13}
+        - {x: 58, y: -8}
+        - {x: 47, y: -5}
+        - {x: 31, y: 10}
+        - {x: 30, y: 26}
+        - {x: 29, y: 30}
+        - {x: 26, y: 38}
+        - {x: 17, y: 46}
+        - {x: 3, y: 46}
+        - {x: -9, y: 35}
+        - {x: -12, y: 27}
+        - {x: -12, y: 14}
+        - {x: -10, y: 4}
+        - {x: -19, y: -5}
+        - {x: -32, y: -5}
+        - {x: -45, y: -4}
+        - {x: -55, y: -4}
+        - {x: -58, y: -7}
+        - {x: -58, y: -13}
+        - {x: -56, y: -15}
+        - {x: -50, y: -16}
+        - {x: -33, y: -17}
+        - {x: -33, y: -24}
+        - {x: -31, y: -26}
+        - {x: -28, y: -26}
+        - {x: -20, y: -19}
+        - {x: -7, y: -21}
+        - {x: -4, y: -20}
+        - {x: 0, y: -28}
+        - {x: -4, y: -31}
+        - {x: -6, y: -34}
+        - {x: -5, y: -44}
+        - {x: -3, y: -46}
+        - {x: 1, y: -46}
+        - {x: 4, y: -45}
+        - {x: 5, y: -39}
+        - {x: 9, y: -38}
+        - {x: 12, y: -35}
+        - {x: 18, y: -46}
+        - {x: 24, y: -46}
+        - {x: 25, y: -45}
+        - {x: 25, y: -38}
+        - {x: 24, y: -31}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 59906816f8adda84c9a59c2c3e6d6a5f
+      internalID: -1929681615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 875
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -46}
+        - {x: 18.5, y: -32}
+        - {x: 17.5, y: -30}
+        - {x: 20.5, y: -37}
+        - {x: 24.5, y: -37}
+        - {x: 35.5, y: -33}
+        - {x: 41.5, y: -24}
+        - {x: 49.5, y: -16}
+        - {x: 51.5, y: -13}
+        - {x: 51.5, y: -7}
+        - {x: 39.5, y: -2}
+        - {x: 26.5, y: 8}
+        - {x: 24.5, y: 15}
+        - {x: 24.5, y: 24}
+        - {x: 21.5, y: 33}
+        - {x: 18.5, y: 40}
+        - {x: 13.5, y: 45}
+        - {x: 10.5, y: 46}
+        - {x: -2.5, y: 46}
+        - {x: -8.5, y: 41}
+        - {x: -18.5, y: 29}
+        - {x: -18.5, y: 15}
+        - {x: -15.5, y: 3}
+        - {x: -18.5, y: 1}
+        - {x: -24.5, y: -10}
+        - {x: -29.5, y: -19}
+        - {x: -48.5, y: -20}
+        - {x: -51.5, y: -23}
+        - {x: -51.5, y: -29}
+        - {x: -49.5, y: -31}
+        - {x: -38.5, y: -33}
+        - {x: -9.5, y: -33}
+        - {x: -9.5, y: -43}
+        - {x: -8.5, y: -46}
+        - {x: -1.5, y: -46}
+        - {x: 0.5, y: -38}
+        - {x: 7.5, y: -39}
+        - {x: 10.5, y: -46}
+      - - {x: -15.5, y: -18}
+        - {x: -12.5, y: -18}
+        - {x: -12.5, y: -19}
+        - {x: -16.5, y: -19}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 13feec69ed644e248befff3a2ff8ddf0
+      internalID: 812270721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 874
+        width: 77
+        height: 93
+      alignment: 9
+      pivot: {x: 0.3307717, y: 0.48089337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: -45.5}
+        - {x: 5.5, y: -39.5}
+        - {x: 5.5, y: -35.5}
+        - {x: 11.5, y: -36.5}
+        - {x: 14.5, y: -33.5}
+        - {x: 21.5, y: -33.5}
+        - {x: 28.5, y: -26.5}
+        - {x: 33.5, y: -16.5}
+        - {x: 38.5, y: -13.5}
+        - {x: 38.5, y: -7.5}
+        - {x: 35.5, y: -6.5}
+        - {x: 23.5, y: 4.5}
+        - {x: 20.5, y: 11.5}
+        - {x: 13.5, y: 16.5}
+        - {x: 11.5, y: 25.5}
+        - {x: 8.5, y: 34.5}
+        - {x: 6.5, y: 39.5}
+        - {x: -0.5, y: 46.5}
+        - {x: -14.5, y: 46.5}
+        - {x: -21.5, y: 40.5}
+        - {x: -30.5, y: 31.5}
+        - {x: -31.5, y: 24.5}
+        - {x: -31.5, y: 16.5}
+        - {x: -27.5, y: 6.5}
+        - {x: -25.5, y: 4.5}
+        - {x: -31.5, y: 0.5}
+        - {x: -36.5, y: -8.5}
+        - {x: -38.5, y: -18.5}
+        - {x: -38.5, y: -32.5}
+        - {x: -37.5, y: -33.5}
+        - {x: -35.5, y: -33.5}
+        - {x: -31.5, y: -29.5}
+        - {x: -29.5, y: -20.5}
+        - {x: -19.5, y: -23.5}
+        - {x: -20.5, y: -30.5}
+        - {x: -26.5, y: -37.5}
+        - {x: -26.5, y: -41.5}
+        - {x: -23.5, y: -44.5}
+        - {x: -19.5, y: -46.5}
+        - {x: -13.5, y: -46.5}
+        - {x: -7.5, y: -39.5}
+        - {x: -1.5, y: -46.5}
+        - {x: 3.5, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: e20cb20b0956bf74c91564b86d4b936f
+      internalID: 2104203964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 874
+        width: 75
+        height: 93
+      alignment: 9
+      pivot: {x: 0.2551823, y: 0.49363068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: -46.5}
+        - {x: 1.5, y: -46.5}
+        - {x: 2.5, y: -45.5}
+        - {x: 7.5, y: -36.5}
+        - {x: 10.5, y: -36.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 24.5, y: -28.5}
+        - {x: 31.5, y: -16.5}
+        - {x: 34.5, y: -15.5}
+        - {x: 37.5, y: -12.5}
+        - {x: 37.5, y: -7.5}
+        - {x: 34.5, y: -6.5}
+        - {x: 30.5, y: -6.5}
+        - {x: 19.5, y: 2.5}
+        - {x: 19.5, y: 8.5}
+        - {x: 10.5, y: 15.5}
+        - {x: 9.5, y: 27.5}
+        - {x: 5.5, y: 40.5}
+        - {x: -2.5, y: 46.5}
+        - {x: -16.5, y: 46.5}
+        - {x: -28.5, y: 34.5}
+        - {x: -31.5, y: 29.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: 15.5}
+        - {x: -29.5, y: 7.5}
+        - {x: -29.5, y: 4.5}
+        - {x: -33.5, y: -0.5}
+        - {x: -37.5, y: -10.5}
+        - {x: -37.5, y: -33.5}
+        - {x: -31.5, y: -36.5}
+        - {x: -21.5, y: -46.5}
+        - {x: -15.5, y: -46.5}
+        - {x: -12.5, y: -39.5}
+        - {x: -8.5, y: -35.5}
+        - {x: -5.5, y: -43.5}
+      - - {x: -27.5, y: -19.5}
+        - {x: -26.5, y: -17.5}
+        - {x: -25.5, y: -18.5}
+        - {x: -23.5, y: -22.5}
+        - {x: -27.5, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 514c644f6dfb13445b7643516aec3fe2
+      internalID: 451899760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 874
+        width: 74
+        height: 93
+      alignment: 9
+      pivot: {x: 0.2678833, y: 0.49363002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -42.5}
+        - {x: -5, y: -46.5}
+        - {x: 1, y: -46.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -35.5}
+        - {x: 10, y: -36.5}
+        - {x: 19, y: -32.5}
+        - {x: 23, y: -30.5}
+        - {x: 27, y: -22.5}
+        - {x: 35, y: -15.5}
+        - {x: 37, y: -12.5}
+        - {x: 37, y: -7.5}
+        - {x: 34, y: -6.5}
+        - {x: 27, y: -4.5}
+        - {x: 17, y: 6.5}
+        - {x: 11, y: 11.5}
+        - {x: 11, y: 16.5}
+        - {x: 10, y: 29.5}
+        - {x: 4, y: 41.5}
+        - {x: -2, y: 46.5}
+        - {x: -18, y: 46.5}
+        - {x: -24, y: 40.5}
+        - {x: -29, y: 34.5}
+        - {x: -32, y: 29.5}
+        - {x: -33, y: 26.5}
+        - {x: -33, y: 16.5}
+        - {x: -31, y: 10.5}
+        - {x: -30, y: 4.5}
+        - {x: -34, y: 0.5}
+        - {x: -35, y: -4.5}
+        - {x: -37, y: -5.5}
+        - {x: -37, y: -20.5}
+        - {x: -35, y: -29.5}
+        - {x: -31, y: -34.5}
+        - {x: -29, y: -34.5}
+        - {x: -26, y: -31.5}
+        - {x: -23, y: -21.5}
+        - {x: -21, y: -30.5}
+        - {x: -21, y: -45.5}
+        - {x: -19, y: -46.5}
+        - {x: -14, y: -46.5}
+        - {x: -13, y: -44.5}
+        - {x: -12, y: -40.5}
+        - {x: -7, y: -39.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 6d44b78ca4ec3b24f8f3371763e61642
+      internalID: 109798457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 749
+        width: 85
+        height: 110
+      alignment: 9
+      pivot: {x: 0.36760426, y: 0.41923162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -51}
+        - {x: 2.5, y: -51}
+        - {x: 13.5, y: -48}
+        - {x: 25.5, y: -36}
+        - {x: 29.5, y: -36}
+        - {x: 36.5, y: -30}
+        - {x: 34.5, y: -27}
+        - {x: 26.5, y: -24}
+        - {x: 21.5, y: -19}
+        - {x: 36.5, y: -1}
+        - {x: 39.5, y: -1}
+        - {x: 42.5, y: 1}
+        - {x: 42.5, y: 16}
+        - {x: 41.5, y: 19}
+        - {x: 38.5, y: 30}
+        - {x: 32.5, y: 51}
+        - {x: 29.5, y: 55}
+        - {x: 22.5, y: 55}
+        - {x: 21.5, y: 54}
+        - {x: 21.5, y: 46}
+        - {x: 26.5, y: 26}
+        - {x: 29.5, y: 15}
+        - {x: 30.5, y: 7}
+        - {x: 21.5, y: 1}
+        - {x: 15.5, y: -1}
+        - {x: 20.5, y: 2}
+        - {x: 21.5, y: 18}
+        - {x: 19.5, y: 22}
+        - {x: 17.5, y: 27}
+        - {x: 15.5, y: 30}
+        - {x: 9.5, y: 36}
+        - {x: 4.5, y: 38}
+        - {x: 0.5, y: 38}
+        - {x: -6.5, y: 33}
+        - {x: -14.5, y: 29}
+        - {x: -22.5, y: 21}
+        - {x: -23.5, y: 14}
+        - {x: -24.5, y: 8}
+        - {x: -33.5, y: 16}
+        - {x: -34.5, y: 19}
+        - {x: -39.5, y: 24}
+        - {x: -41.5, y: 24}
+        - {x: -42.5, y: 23}
+        - {x: -42.5, y: 14}
+        - {x: -38.5, y: 6}
+        - {x: -35.5, y: 2}
+        - {x: -32.5, y: -7}
+        - {x: -26.5, y: -14}
+        - {x: -24.5, y: -33}
+        - {x: -38.5, y: -43}
+        - {x: -35.5, y: -50}
+        - {x: -25.5, y: -44}
+        - {x: -17.5, y: -44}
+        - {x: -17.5, y: -54}
+        - {x: -16.5, y: -55}
+        - {x: -10.5, y: -55}
+        - {x: -8.5, y: -54}
+        - {x: -3.5, y: -46}
+        - {x: -2.5, y: -48}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 79c4f22246ea97048abb74d6d26db3c2
+      internalID: -1036897918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 636
+        width: 73
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26470393, y: 0.51273733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -37.5}
+        - {x: 9.5, y: -37.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 23.5, y: -28.5}
+        - {x: 26.5, y: -23.5}
+        - {x: 32.5, y: -17.5}
+        - {x: 36.5, y: -14.5}
+        - {x: 36.5, y: -8.5}
+        - {x: 25.5, y: -3.5}
+        - {x: 10.5, y: 9.5}
+        - {x: 9.5, y: 23.5}
+        - {x: 6.5, y: 34.5}
+        - {x: 4.5, y: 39.5}
+        - {x: -3.5, y: 46.5}
+        - {x: -16.5, y: 46.5}
+        - {x: -31.5, y: 31.5}
+        - {x: -33.5, y: 26.5}
+        - {x: -33.5, y: 15.5}
+        - {x: -30.5, y: 7.5}
+        - {x: -28.5, y: 4.5}
+        - {x: -36.5, y: 2.5}
+        - {x: -36.5, y: -10.5}
+        - {x: -35.5, y: -17.5}
+        - {x: -32.5, y: -30.5}
+        - {x: -28.5, y: -34.5}
+        - {x: -26.5, y: -34.5}
+        - {x: -22.5, y: -32.5}
+        - {x: -21.5, y: -25.5}
+        - {x: -20.5, y: -42.5}
+        - {x: -18.5, y: -46.5}
+        - {x: -12.5, y: -46.5}
+        - {x: -8.5, y: -39.5}
+        - {x: -8.5, y: -46.5}
+        - {x: 0.5, y: -46.5}
+      physicsShape:
+      - - {x: 7.5, y: -37.5}
+        - {x: 12.5, y: -36.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 24.5, y: -26.5}
+        - {x: 31.5, y: -16.5}
+        - {x: 36.5, y: -13.5}
+        - {x: 36.5, y: -8.5}
+        - {x: 26.5, y: -5.5}
+        - {x: 17.5, y: 3.5}
+        - {x: 6.5, y: 11.5}
+        - {x: 10.5, y: 19.5}
+        - {x: 7.5, y: 33.5}
+        - {x: 2.5, y: 41.5}
+        - {x: -1.5, y: 45.5}
+        - {x: -4.5, y: 46.5}
+        - {x: -16.5, y: 46.5}
+        - {x: -29.5, y: 34.5}
+        - {x: -32.5, y: 27.5}
+        - {x: -33.5, y: 19.5}
+        - {x: -32.5, y: 14.5}
+        - {x: -27.5, y: 4.5}
+        - {x: -36.5, y: 2.5}
+        - {x: -36.5, y: -4.5}
+        - {x: -34.5, y: -6.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -31.5, y: -30.5}
+        - {x: -28.5, y: -33.5}
+        - {x: -26.5, y: -33.5}
+        - {x: -22.5, y: -31.5}
+        - {x: -23.5, y: -21.5}
+        - {x: -19.5, y: -25.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -20.5, y: -44.5}
+        - {x: -18.5, y: -46.5}
+        - {x: -13.5, y: -46.5}
+        - {x: -11.5, y: -37.5}
+        - {x: -5.5, y: -46.5}
+        - {x: -0.5, y: -46.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: ce109088917761b4680c62a546edcdcf
+      internalID: -2076409697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 636
+        width: 76
+        height: 94
+      alignment: 9
+      pivot: {x: 0.29737192, y: 0.48739755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -47}
+        - {x: 5, y: -46}
+        - {x: 6, y: -39}
+        - {x: 6, y: -36}
+        - {x: 11, y: -37}
+        - {x: 21, y: -33}
+        - {x: 25, y: -30}
+        - {x: 28, y: -23}
+        - {x: 36, y: -16}
+        - {x: 38, y: -13}
+        - {x: 38, y: -8}
+        - {x: 24, y: -2}
+        - {x: 9, y: 13}
+        - {x: 11, y: 17}
+        - {x: 11, y: 23}
+        - {x: 8, y: 33}
+        - {x: 6, y: 38}
+        - {x: -2, y: 47}
+        - {x: -15, y: 47}
+        - {x: -29, y: 34}
+        - {x: -33, y: 26}
+        - {x: -32, y: 7}
+        - {x: -35, y: 1}
+        - {x: -38, y: -13}
+        - {x: -38, y: -32}
+        - {x: -37, y: -33}
+        - {x: -35, y: -33}
+        - {x: -31, y: -29}
+        - {x: -28, y: -21}
+        - {x: -24, y: -19}
+        - {x: -21, y: -23}
+        - {x: -19, y: -25}
+        - {x: -22, y: -35}
+        - {x: -21, y: -45}
+        - {x: -18, y: -47}
+        - {x: -13, y: -47}
+        - {x: -6, y: -37}
+        - {x: -2, y: -47}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 9319734f2ea23de44892ea5457ba5410
+      internalID: -1238505050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 637
+        width: 81
+        height: 93
+      alignment: 9
+      pivot: {x: 0.30987963, y: 0.48726204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: -45.5}
+        - {x: 13.5, y: -37.5}
+        - {x: 22.5, y: -33.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 35.5, y: -18.5}
+        - {x: 40.5, y: -14.5}
+        - {x: 40.5, y: -8.5}
+        - {x: 33.5, y: -6.5}
+        - {x: 25.5, y: -1.5}
+        - {x: 15.5, y: 7.5}
+        - {x: 11.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+        - {x: 12.5, y: 30.5}
+        - {x: 10.5, y: 32.5}
+        - {x: 9.5, y: 45.5}
+        - {x: 7.5, y: 46.5}
+        - {x: -13.5, y: 46.5}
+        - {x: -26.5, y: 33.5}
+        - {x: -28.5, y: 30.5}
+        - {x: -31.5, y: 18.5}
+        - {x: -35.5, y: 18.5}
+        - {x: -38.5, y: 15.5}
+        - {x: -38.5, y: 8.5}
+        - {x: -34.5, y: 4.5}
+        - {x: -31.5, y: 0.5}
+        - {x: -37.5, y: -9.5}
+        - {x: -40.5, y: -16.5}
+        - {x: -40.5, y: -30.5}
+        - {x: -38.5, y: -30.5}
+        - {x: -33.5, y: -26.5}
+        - {x: -31.5, y: -20.5}
+        - {x: -24.5, y: -15.5}
+        - {x: -18.5, y: -25.5}
+        - {x: -18.5, y: -44.5}
+        - {x: -16.5, y: -46.5}
+        - {x: -11.5, y: -46.5}
+        - {x: -3.5, y: -35.5}
+        - {x: 2.5, y: -46.5}
+        - {x: 8.5, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: a55c70078c316fd419320e667c2dd9f2
+      internalID: -1653223584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 637
+        width: 87
+        height: 93
+      alignment: 9
+      pivot: {x: 0.35703146, y: 0.49999934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: -46.5}
+        - {x: 13.5, y: -46.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 16.5, y: -37.5}
+        - {x: 26.5, y: -32.5}
+        - {x: 31.5, y: -29.5}
+        - {x: 38.5, y: -18.5}
+        - {x: 43.5, y: -14.5}
+        - {x: 43.5, y: -8.5}
+        - {x: 33.5, y: -4.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 14.5, y: 10.5}
+        - {x: 17.5, y: 17.5}
+        - {x: 16.5, y: 26.5}
+        - {x: 31.5, y: 26.5}
+        - {x: 37.5, y: 31.5}
+        - {x: 38.5, y: 34.5}
+        - {x: 31.5, y: 39.5}
+        - {x: 12.5, y: 40.5}
+        - {x: 3.5, y: 46.5}
+        - {x: -10.5, y: 46.5}
+        - {x: -16.5, y: 43.5}
+        - {x: -19.5, y: 41.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -26.5, y: 14.5}
+        - {x: -23.5, y: 6.5}
+        - {x: -28.5, y: 3.5}
+        - {x: -43.5, y: -16.5}
+        - {x: -43.5, y: -25.5}
+        - {x: -40.5, y: -25.5}
+        - {x: -31.5, y: -17.5}
+        - {x: -26.5, y: -14.5}
+        - {x: -18.5, y: -20.5}
+        - {x: -14.5, y: -24.5}
+        - {x: -16.5, y: -33.5}
+        - {x: -16.5, y: -44.5}
+        - {x: -14.5, y: -46.5}
+        - {x: -9.5, y: -46.5}
+        - {x: -5.5, y: -40.5}
+        - {x: 0.5, y: -35.5}
+        - {x: 5.5, y: -45.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: d56deca565a99b64286c398e6984c702
+      internalID: -484597957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 637
+        width: 83
+        height: 95
+      alignment: 9
+      pivot: {x: 0.3215968, y: 0.49999934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -47.5}
+        - {x: 14.5, y: -38.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 27.5, y: -32.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 41.5, y: -15.5}
+        - {x: 41.5, y: -8.5}
+        - {x: 31.5, y: -6.5}
+        - {x: 12.5, y: 9.5}
+        - {x: 15.5, y: 15.5}
+        - {x: 14.5, y: 26.5}
+        - {x: 10.5, y: 34.5}
+        - {x: 7.5, y: 47.5}
+        - {x: -9.5, y: 47.5}
+        - {x: -25.5, y: 32.5}
+        - {x: -31.5, y: 20.5}
+        - {x: -34.5, y: 19.5}
+        - {x: -38.5, y: 15.5}
+        - {x: -39.5, y: 11.5}
+        - {x: -34.5, y: 5.5}
+        - {x: -28.5, y: 3.5}
+        - {x: -31.5, y: -6.5}
+        - {x: -36.5, y: -11.5}
+        - {x: -41.5, y: -20.5}
+        - {x: -41.5, y: -29.5}
+        - {x: -40.5, y: -30.5}
+        - {x: -38.5, y: -30.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -17.5, y: -26.5}
+        - {x: -18.5, y: -34.5}
+        - {x: -18.5, y: -46.5}
+        - {x: -17.5, y: -47.5}
+        - {x: -11.5, y: -47.5}
+        - {x: -3.5, y: -36.5}
+        - {x: 0.5, y: -40.5}
+        - {x: 4.5, y: -47.5}
+      - - {x: 6.5, y: -24.5}
+        - {x: 5.5, y: -24.5}
+        - {x: 6.5, y: -27.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 777315dbbdba9494f9621bc4df6dd479
+      internalID: 470696254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 637
+        width: 77
+        height: 93
+      alignment: 9
+      pivot: {x: 0.261542, y: 0.50636864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -46.5}
+        - {x: 7.5, y: -46.5}
+        - {x: 8.5, y: -45.5}
+        - {x: 11.5, y: -37.5}
+        - {x: 22.5, y: -34.5}
+        - {x: 28.5, y: -24.5}
+        - {x: 38.5, y: -14.5}
+        - {x: 38.5, y: -8.5}
+        - {x: 24.5, y: -2.5}
+        - {x: 9.5, y: 12.5}
+        - {x: 11.5, y: 16.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 7.5, y: 38.5}
+        - {x: -2.5, y: 46.5}
+        - {x: -14.5, y: 46.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -30.5, y: 39.5}
+        - {x: -34.5, y: 35.5}
+        - {x: -35.5, y: 22.5}
+        - {x: -35.5, y: -4.5}
+        - {x: -37.5, y: -9.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -38.5, y: -31.5}
+        - {x: -35.5, y: -31.5}
+        - {x: -31.5, y: -28.5}
+        - {x: -23.5, y: -19.5}
+        - {x: -20.5, y: -23.5}
+        - {x: -23.5, y: -34.5}
+        - {x: -22.5, y: -46.5}
+        - {x: -14.5, y: -46.5}
+        - {x: -8.5, y: -38.5}
+        - {x: -4.5, y: -35.5}
+        - {x: -1.5, y: -41.5}
+      - - {x: 3.5, y: -23.5}
+        - {x: 2.5, y: -23.5}
+        - {x: 2.5, y: -25.5}
+        - {x: 3.5, y: -25.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 1cfb143c576121a468dd3a0d48b14e99
+      internalID: -1045249214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 637
+        width: 72
+        height: 92
+      alignment: 9
+      pivot: {x: 0.26966178, y: 0.48712358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -46}
+        - {x: 6, y: -45}
+        - {x: 9, y: -39}
+        - {x: 16, y: -38}
+        - {x: 22, y: -32}
+        - {x: 26, y: -24}
+        - {x: 34, y: -17}
+        - {x: 36, y: -14}
+        - {x: 36, y: -9}
+        - {x: 24, y: -4}
+        - {x: 9, y: 10}
+        - {x: 9, y: 25}
+        - {x: 6, y: 34}
+        - {x: 4, y: 39}
+        - {x: -4, y: 46}
+        - {x: -18, y: 46}
+        - {x: -24, y: 40}
+        - {x: -30, y: 33}
+        - {x: -33, y: 28}
+        - {x: -34, y: 24}
+        - {x: -34, y: 17}
+        - {x: -32, y: 10}
+        - {x: -31, y: 4}
+        - {x: -33, y: -4}
+        - {x: -31, y: -18}
+        - {x: -32, y: -19}
+        - {x: -34, y: -25}
+        - {x: -36, y: -27}
+        - {x: -36, y: -34}
+        - {x: -35, y: -35}
+        - {x: -29, y: -36}
+        - {x: -25, y: -39}
+        - {x: -25, y: -44}
+        - {x: -24, y: -46}
+        - {x: -16, y: -46}
+        - {x: -14, y: -39}
+        - {x: -7, y: -36}
+        - {x: -1, y: -46}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: af295c4447062b34998b3c452f362569
+      internalID: -1264607783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 637
+        width: 70
+        height: 92
+      alignment: 9
+      pivot: {x: 0.22923496, y: 0.48068568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -45}
+        - {x: 7, y: -40}
+        - {x: 14, y: -36}
+        - {x: 19, y: -35}
+        - {x: 23, y: -32}
+        - {x: 26, y: -23}
+        - {x: 31, y: -16}
+        - {x: 35, y: -12}
+        - {x: 35, y: -7}
+        - {x: 25, y: -5}
+        - {x: 9, y: 9}
+        - {x: 4, y: 11}
+        - {x: 6, y: 15}
+        - {x: 6, y: 29}
+        - {x: 2, y: 37}
+        - {x: -6, y: 46}
+        - {x: -21, y: 46}
+        - {x: -24, y: 43}
+        - {x: -33, y: 33}
+        - {x: -35, y: 30}
+        - {x: -35, y: 11}
+        - {x: -33, y: 8}
+        - {x: -34, y: -4}
+        - {x: -34, y: -14}
+        - {x: -35, y: -25}
+        - {x: -35, y: -30}
+        - {x: -32, y: -34}
+        - {x: -30, y: -34}
+        - {x: -27, y: -31}
+        - {x: -33, y: -40}
+        - {x: -34, y: -43}
+        - {x: -29, y: -46}
+        - {x: -18, y: -46}
+        - {x: -12, y: -42}
+        - {x: -3, y: -46}
+        - {x: 3, y: -46}
+      - - {x: 0, y: -22}
+        - {x: -1, y: -22}
+        - {x: 0, y: -23}
+        - {x: 0, y: -25}
+        - {x: -1, y: -25}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 4370ab79b36a8eb4fa9b44e25ab2ffcb
+      internalID: 87842985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 632
+        width: 72
+        height: 97
+      alignment: 9
+      pivot: {x: 0.22852919, y: 0.5183181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -35.5}
+        - {x: 19, y: -30.5}
+        - {x: 26, y: -28.5}
+        - {x: 29, y: -24.5}
+        - {x: 30, y: -19.5}
+        - {x: 30, y: -13.5}
+        - {x: 36, y: -7.5}
+        - {x: 36, y: -1.5}
+        - {x: 27, y: -0.5}
+        - {x: 16, y: 5.5}
+        - {x: 8, y: 12.5}
+        - {x: 5, y: 14.5}
+        - {x: 6, y: 28.5}
+        - {x: 0, y: 40.5}
+        - {x: -8, y: 48.5}
+        - {x: -22, y: 48.5}
+        - {x: -27, y: 43.5}
+        - {x: -34, y: 35.5}
+        - {x: -36, y: 32.5}
+        - {x: -36, y: 12.5}
+        - {x: -34, y: 4.5}
+        - {x: -34, y: -10.5}
+        - {x: -35, y: -27.5}
+        - {x: -32, y: -31.5}
+        - {x: -31, y: -31.5}
+        - {x: -27, y: -28.5}
+        - {x: -28, y: -32.5}
+        - {x: -28, y: -38.5}
+        - {x: -27, y: -43.5}
+        - {x: -22, y: -48.5}
+        - {x: -10, y: -48.5}
+        - {x: -7, y: -46.5}
+        - {x: 3, y: -45.5}
+        - {x: 8, y: -37.5}
+      - - {x: -17, y: -37.5}
+        - {x: -16, y: -37.5}
+        - {x: -13, y: -36.5}
+        - {x: -11, y: -33.5}
+        - {x: -10, y: -33.5}
+        - {x: -15, y: -37.5}
+        - {x: -18, y: -38.5}
+      - - {x: -1, y: -23.5}
+        - {x: -1, y: -19.5}
+        - {x: 0, y: -18.5}
+        - {x: 1, y: -18.5}
+        - {x: 1, y: -19.5}
+        - {x: 3, y: -22.5}
+        - {x: 3, y: -25.5}
+        - {x: 1, y: -25.5}
+        - {x: 1, y: -24.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 1eeb709315eabee4e9a9cb5f049a06d7
+      internalID: -1074874966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 632
+        width: 72
+        height: 97
+      alignment: 9
+      pivot: {x: 0.23675537, y: 0.5183181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -36.5}
+        - {x: 12, y: -35.5}
+        - {x: 25, y: -28.5}
+        - {x: 29, y: -24.5}
+        - {x: 30, y: -14.5}
+        - {x: 36, y: -7.5}
+        - {x: 36, y: -1.5}
+        - {x: 27, y: -0.5}
+        - {x: 20, y: 3.5}
+        - {x: 8, y: 12.5}
+        - {x: 5, y: 14.5}
+        - {x: 6, y: 28.5}
+        - {x: 0, y: 40.5}
+        - {x: -9, y: 48.5}
+        - {x: -23, y: 48.5}
+        - {x: -25, y: 47.5}
+        - {x: -35, y: 35.5}
+        - {x: -36, y: 32.5}
+        - {x: -36, y: 12.5}
+        - {x: -35, y: -0.5}
+        - {x: -34, y: -8.5}
+        - {x: -35, y: -21.5}
+        - {x: -35, y: -28.5}
+        - {x: -32, y: -31.5}
+        - {x: -31, y: -31.5}
+        - {x: -27, y: -27.5}
+        - {x: -28, y: -32.5}
+        - {x: -28, y: -43.5}
+        - {x: -23, y: -48.5}
+        - {x: -10, y: -48.5}
+        - {x: -6, y: -46.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -42.5}
+      - - {x: -18, y: -37.5}
+        - {x: -16, y: -37.5}
+        - {x: -12, y: -33.5}
+        - {x: -10, y: -33.5}
+        - {x: -12, y: -35.5}
+        - {x: -13, y: -35.5}
+        - {x: -16, y: -37.5}
+        - {x: -18, y: -39.5}
+      - - {x: -1, y: -19.5}
+        - {x: 0, y: -18.5}
+        - {x: 1, y: -19.5}
+        - {x: 3, y: -22.5}
+        - {x: 3, y: -24.5}
+        - {x: -1, y: -24.5}
+      physicsShape: []
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: e20150de0fbab334a9d7fe1d9cc75b73
+      internalID: -923871571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 501
+        width: 92
+        height: 116
+      alignment: 9
+      pivot: {x: 0.422744, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82d7e79e74d65e45bf3976fb9a07b88
+      internalID: 277330931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 501
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4299433, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43459994c18ba44283465a571c5d0af
+      internalID: 681560658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 501
+        width: 95
+        height: 116
+      alignment: 9
+      pivot: {x: 0.43765292, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562d42c11da861a4e944c4e16940b9cf
+      internalID: -1827425088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 501
+        width: 94
+        height: 116
+      alignment: 9
+      pivot: {x: 0.41808626, y: 0.37745562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48392031e333ac24b83d1025ecd24ed5
+      internalID: 1667696827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 501
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.43631145, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0305c9f27071499df6f629cc214e1
+      internalID: -550345649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 501
+        width: 95
+        height: 116
+      alignment: 9
+      pivot: {x: 0.43765292, y: 0.37234917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293c0212f6b788747ba1c37f8e244290
+      internalID: 691537686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 501
+        width: 95
+        height: 116
+      alignment: 9
+      pivot: {x: 0.42518312, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac6fabf38d6f8148a7b302b9c9b057c
+      internalID: 867589398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 501
+        width: 94
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4117847, y: 0.3825615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1929ae20ced8d4cb332c9e7cd40ad9
+      internalID: 1472428933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 501
+        width: 93
+        height: 116
+      alignment: 9
+      pivot: {x: 0.41720548, y: 0.3774551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285f6df3e078a8745a26dd12ddb38813
+      internalID: -1472355088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 407
+        width: 93
+        height: 87
+      alignment: 9
+      pivot: {x: 0.36625555, y: 0.43872738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8011a3865f23a438a692a221d77ee6
+      internalID: 220896036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 403
+        width: 88
+        height: 91
+      alignment: 9
+      pivot: {x: 0.35192576, y: 0.48047346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107aa7290dae77942853742ee3a488f2
+      internalID: -344995135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 407
+        width: 79
+        height: 87
+      alignment: 9
+      pivot: {x: 0.260082, y: 0.4455356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e6fe9bdae735d48b2d5aea21051772
+      internalID: 1911549453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 404
+        width: 78
+        height: 90
+      alignment: 9
+      pivot: {x: 0.21903835, y: 0.48683777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52cabd86fd4cfa4fb16d7d749dfc712
+      internalID: 499301271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 403
+        width: 79
+        height: 91
+      alignment: 9
+      pivot: {x: 0.24508667, y: 0.4739648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798280d6bac4d64b9a82d80e8a5a156
+      internalID: -2132815589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 404
+        width: 78
+        height: 90
+      alignment: 9
+      pivot: {x: 0.24181816, y: 0.4670946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166963730cef4949bbfc81376c69ca2
+      internalID: 952617065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 405
+        width: 78
+        height: 89
+      alignment: 9
+      pivot: {x: 0.24181893, y: 0.45341474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60714f6b240a95478c00f89b53b838a
+      internalID: -1995999038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 402
+        width: 78
+        height: 92
+      alignment: 9
+      pivot: {x: 0.24181816, y: 0.4871239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8291a7db171c7c94f8cc45ec465c4f40
+      internalID: -1078885562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 402
+        width: 78
+        height: 92
+      alignment: 9
+      pivot: {x: 0.21903718, y: 0.49356177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3cacb2f36ae0c45b6b7ed8142d7e70
+      internalID: 680081397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 402
+        width: 88
+        height: 92
+      alignment: 9
+      pivot: {x: 0.3250025, y: 0.4742478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e3f9e109c0d354ab5cdc2adcb1d21e
+      internalID: 1218900302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 304
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.26143584, y: 0.49999967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72583ee2c1caa1429daf1a1a46f7931
+      internalID: 493856836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 305
+        width: 73
+        height: 92
+      alignment: 9
+      pivot: {x: 0.28093123, y: 0.49999967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b2b7692eb50f74d9159d9dfca0b783
+      internalID: -1276145674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 306
+        width: 80
+        height: 91
+      alignment: 9
+      pivot: {x: 0.31490707, y: 0.48047346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ce5b557468a14d9fbaed99d6e8fe6
+      internalID: 1093333196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 305
+        width: 81
+        height: 92
+      alignment: 9
+      pivot: {x: 0.3171918, y: 0.48712358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9869bd670e0404092f466f58b0f442
+      internalID: -1522902129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 304
+        width: 84
+        height: 92
+      alignment: 9
+      pivot: {x: 0.32372102, y: 0.50643754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf6b0f9c25dd64792c5ff31485df77
+      internalID: 137080110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 304
+        width: 75
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26308104, y: 0.50636864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6900caa547f1e964eb449e41fe8f94d7
+      internalID: -1899334845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 304
+        width: 74
+        height: 94
+      alignment: 9
+      pivot: {x: 0.27588716, y: 0.5063009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6250b0757b6b514a88af2bf54ce9a68
+      internalID: 338874187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 306
+        width: 73
+        height: 92
+      alignment: 9
+      pivot: {x: 0.26470363, y: 0.4742478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a6039b69187394a8deeee9de802c4a
+      internalID: -1135523919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 305
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.25320944, y: 0.48109663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d920e4b823426104581f91166ac57661
+      internalID: 344296932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 305
+        width: 73
+        height: 93
+      alignment: 9
+      pivot: {x: 0.25659013, y: 0.48726237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1674ff0c42595342b185aa0a5f27483
+      internalID: 1673302875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 211
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.30018893, y: 0.47145557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0a0e8c0f252a94e875c94662f4574c
+      internalID: 768230442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 72
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26143605, y: 0.48089337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973af4b5500a3a3479c627c795f15242
+      internalID: -1775599982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 113
+        width: 74
+        height: 93
+      alignment: 9
+      pivot: {x: 0.25987944, y: 0.46815607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776829f9d0ce5684fab21f4ea0247648
+      internalID: -1015371161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 115
+        width: 76
+        height: 92
+      alignment: 9
+      pivot: {x: 0.2661984, y: 0.47424763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5795e0e551a4e49a35c2562bc54077
+      internalID: -519332777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 114
+        width: 75
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26308104, y: 0.48726252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c762d3d00b81145ae7d53f17a4f811
+      internalID: -169083503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 85
+        height: 93
+      alignment: 9
+      pivot: {x: 0.34669945, y: 0.4808937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cc3e386e69955448a0f2318044d672
+      internalID: -1316525142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 114
+        width: 84
+        height: 93
+      alignment: 9
+      pivot: {x: 0.3589768, y: 0.4745249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61dd0fa80cdb8f44a7992241e9e5426
+      internalID: 1865893537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 113
+        width: 81
+        height: 93
+      alignment: 9
+      pivot: {x: 0.30987924, y: 0.46815607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33e5e1288e389d42b50b7e064f195c2
+      internalID: 1381338054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 112
+        width: 76
+        height: 94
+      alignment: 9
+      pivot: {x: 0.2661984, y: 0.48109728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd68175350f1e9b488c69a73542667c6
+      internalID: 746482203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 112
+        width: 74
+        height: 93
+      alignment: 9
+      pivot: {x: 0.25187477, y: 0.493631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774640f1d3eb54848abe37fd5b46041d
+      internalID: 882396971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 111
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.220303, y: 0.49369925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade07ca9b285914a81337c948db739c
+      internalID: 1702931817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.26966217, y: 0.48739818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b9460f6f3e7f44fad84a75e7e20f44
+      internalID: -1193058719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 10
+        width: 72
+        height: 93
+      alignment: 9
+      pivot: {x: 0.23675686, y: 0.49363106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39842bce10bfc5946a386a23c172a11b
+      internalID: -1751907356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 72
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26143584, y: 0.4681559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3dbdd271a53f242afb2ad6a7626b34
+      internalID: 919729020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 10
+        width: 73
+        height: 93
+      alignment: 9
+      pivot: {x: 0.26470363, y: 0.48726228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70ddf3b2005dfc41b42c9e84348ea37
+      internalID: 773564885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.23675664, y: 0.47479615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ff2906e455f914a8346ab244056de4
+      internalID: 853678656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.26966178, y: 0.48739818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e61390717283d4e91a0279d84a5642
+      internalID: 113222631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.25320944, y: 0.5000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d072ded6e23a45bf2a7be339d76a4
+      internalID: -699487627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.23675622, y: 0.48739818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb1c07a54f5e594ab6961c7064938be
+      internalID: 1536504782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.2449824, y: 0.48109716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e6749de53db3840b28f65547482dbb
+      internalID: 1827970710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.26143563, y: 0.49369922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4329d2efe854d4fb9b82428b3db687
+      internalID: -933358947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnightSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 10
+        width: 72
+        height: 94
+      alignment: 9
+      pivot: {x: 0.26143476, y: 0.49369922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558b18a48bbdec24ebffb49902fd639f
+      internalID: -464191025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueKnightSpriteSheet_0: 1748879214
+      BlueKnightSpriteSheet_1: 1923671675
+      BlueKnightSpriteSheet_10: -2131063949
+      BlueKnightSpriteSheet_11: 1820333063
+      BlueKnightSpriteSheet_12: -637324981
+      BlueKnightSpriteSheet_13: -622952996
+      BlueKnightSpriteSheet_14: -848711265
+      BlueKnightSpriteSheet_15: -2124184283
+      BlueKnightSpriteSheet_16: -871947659
+      BlueKnightSpriteSheet_17: -1360274835
+      BlueKnightSpriteSheet_18: -1848863443
+      BlueKnightSpriteSheet_19: -1971100001
+      BlueKnightSpriteSheet_2: -1730865218
+      BlueKnightSpriteSheet_20: 518014358
+      BlueKnightSpriteSheet_21: 2011041580
+      BlueKnightSpriteSheet_22: 645650146
+      BlueKnightSpriteSheet_23: -1929681615
+      BlueKnightSpriteSheet_24: 812270721
+      BlueKnightSpriteSheet_25: 2104203964
+      BlueKnightSpriteSheet_26: 451899760
+      BlueKnightSpriteSheet_27: 109798457
+      BlueKnightSpriteSheet_28: -1036897918
+      BlueKnightSpriteSheet_29: -2076409697
+      BlueKnightSpriteSheet_3: -324888371
+      BlueKnightSpriteSheet_30: -1238505050
+      BlueKnightSpriteSheet_31: -1653223584
+      BlueKnightSpriteSheet_32: -484597957
+      BlueKnightSpriteSheet_33: 470696254
+      BlueKnightSpriteSheet_34: -1045249214
+      BlueKnightSpriteSheet_35: -1264607783
+      BlueKnightSpriteSheet_36: 87842985
+      BlueKnightSpriteSheet_37: -1074874966
+      BlueKnightSpriteSheet_38: -923871571
+      BlueKnightSpriteSheet_39: 277330931
+      BlueKnightSpriteSheet_4: -1212408640
+      BlueKnightSpriteSheet_40: 681560658
+      BlueKnightSpriteSheet_41: -1827425088
+      BlueKnightSpriteSheet_42: 1667696827
+      BlueKnightSpriteSheet_43: -550345649
+      BlueKnightSpriteSheet_44: 691537686
+      BlueKnightSpriteSheet_45: 867589398
+      BlueKnightSpriteSheet_46: 1472428933
+      BlueKnightSpriteSheet_47: -1472355088
+      BlueKnightSpriteSheet_48: 220896036
+      BlueKnightSpriteSheet_49: -344995135
+      BlueKnightSpriteSheet_5: 2085794380
+      BlueKnightSpriteSheet_50: 1911549453
+      BlueKnightSpriteSheet_51: 499301271
+      BlueKnightSpriteSheet_52: -2132815589
+      BlueKnightSpriteSheet_53: 952617065
+      BlueKnightSpriteSheet_54: -1995999038
+      BlueKnightSpriteSheet_55: -1078885562
+      BlueKnightSpriteSheet_56: 680081397
+      BlueKnightSpriteSheet_57: 1218900302
+      BlueKnightSpriteSheet_58: 493856836
+      BlueKnightSpriteSheet_59: -1276145674
+      BlueKnightSpriteSheet_6: 1414325098
+      BlueKnightSpriteSheet_60: 1093333196
+      BlueKnightSpriteSheet_61: -1522902129
+      BlueKnightSpriteSheet_62: 137080110
+      BlueKnightSpriteSheet_63: -1899334845
+      BlueKnightSpriteSheet_64: 338874187
+      BlueKnightSpriteSheet_65: -1135523919
+      BlueKnightSpriteSheet_66: 344296932
+      BlueKnightSpriteSheet_67: 1673302875
+      BlueKnightSpriteSheet_68: 768230442
+      BlueKnightSpriteSheet_69: -1775599982
+      BlueKnightSpriteSheet_7: -2078290445
+      BlueKnightSpriteSheet_70: -1015371161
+      BlueKnightSpriteSheet_71: -519332777
+      BlueKnightSpriteSheet_72: -169083503
+      BlueKnightSpriteSheet_73: -1316525142
+      BlueKnightSpriteSheet_74: 1865893537
+      BlueKnightSpriteSheet_75: 1381338054
+      BlueKnightSpriteSheet_76: 746482203
+      BlueKnightSpriteSheet_77: 882396971
+      BlueKnightSpriteSheet_78: 1702931817
+      BlueKnightSpriteSheet_79: -1193058719
+      BlueKnightSpriteSheet_8: -428803686
+      BlueKnightSpriteSheet_80: -1751907356
+      BlueKnightSpriteSheet_81: 919729020
+      BlueKnightSpriteSheet_82: 773564885
+      BlueKnightSpriteSheet_83: 853678656
+      BlueKnightSpriteSheet_84: 113222631
+      BlueKnightSpriteSheet_85: -699487627
+      BlueKnightSpriteSheet_86: 1536504782
+      BlueKnightSpriteSheet_87: 1827970710
+      BlueKnightSpriteSheet_88: -933358947
+      BlueKnightSpriteSheet_89: -464191025
+      BlueKnightSpriteSheet_9: -1803651484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
