@@ -6,7 +6,9 @@ public class CollisionDegats : MonoBehaviour
 {
     public float degatsMin = 10f; // Dégéts minimum infligés
     public float degatsMax = 10f; // Dégéts maximum infligés
-    public string tagCible = ""; // Tag des objets qui peuvent recevoir des dégéts
+    public string tagCible = ""; // Tag des objets qui peuvent recevoir des dégats
+
+    public GameObject drop; // si à 0 pv le perso/ennemi doit lacher quelque chose
 
     void OnCollisionEnter2D(Collision2D collision) {
         // Vérifie si l'objet touché a le tag spécifié
@@ -22,6 +24,13 @@ public class CollisionDegats : MonoBehaviour
                     Destroy(collision.gameObject,0.1f); //on le détruit avec un délai de 0.1 seconde
                 }
             }
+        }
+    }
+    void OnDestroy()
+    {
+        if(drop != null){ //si on doit drop un objet à la mort
+            GameObject loot =  Instantiate(drop, transform.position, Quaternion.identity); // on le drop
+            Physics2D.IgnoreCollision(loot.GetComponent<Collider2D>(), GetComponent<Collider2D>()); //on evite les collisions juste après le drop
         }
     }
 }
